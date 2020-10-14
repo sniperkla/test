@@ -67,7 +67,7 @@ if (event.message.text === 'เข้าสู่ระบบ')
     
   // Section เงื่อนไขการตอบกลับ
 
-else if (event.message.text === "แจ้งเตือน")
+else if (event.message.text === "ประกาศ")
   {
     return client.replyMessage(event.replyToken, info);
   }
@@ -161,8 +161,8 @@ const quickreply =
          "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
-          "label": "ข่าวสาร/แจ้งเตือน",
-          "text": "แจ้งเตือน"
+          "label": "ประกาศ/ข่าวสาร",
+          "text": "ประกาศ"
         }
       },
 
