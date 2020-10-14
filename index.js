@@ -397,7 +397,17 @@ const regis =
 },quickreply
 
 ];
-
+const entrance = 
+   [
+{
+  "type": "text",
+  "text": "😻 เข้าเล่นผ่านลิงค์นี้ได้เลยเมี๊ยวว 😻"
+},
+  {
+  "type": "text",
+  "text": "https://slotcat777.com?openExternalBrowser=1"
+},quickreply
+];
 
 const chatwith = 
    [
