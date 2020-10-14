@@ -121,7 +121,6 @@ else
   
 };
 
-
 // payload section
 
 const gamereg =
@@ -139,7 +138,7 @@ const gamereg =
 
               {
           "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
             "type": "uri"
            
           },
@@ -150,64 +149,12 @@ const gamereg =
           "action": {
            
             "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
           }
-        },
-
-
-        {
-          "imageUrl": "https://niki999.com/slotcat777/2.jpg",
-          "action": {
-            "type": "uri",
-           
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-    
-        {
-          "imageUrl": "https://niki999.com/slotcat777/3.jpg",
-          "action": {
-           
-            "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-        {
-          "action": {
-            
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/8.jpg"
-        },
-        {
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            
-            "type": "uri"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/5.jpg"
-        },
-        {
-          "imageUrl": "https://niki999.com/slotcat777/6.jpg",
-          "action": {
-            "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-           
-          }
-        },
-        {
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri"
-          
-          },
-          "imageUrl": "https://niki999.com/slotcat777/7.jpg"
         }
       ],
       "type": "image_carousel"
     }
-
    }
 ];
 
