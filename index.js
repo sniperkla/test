@@ -65,18 +65,6 @@ if (event.message.text === 'เข้าสู่ระบบ')
    return client.replyMessage(event.replyToken, forlogin);
 }
     
-   
- else if (event.message.text === 'Coming Soon'||event.message.text === 'previous'){ // ไว้ dubug เฉยๆ
-  
-  return request({
-    method: 'DELETE',
-    uri: `https://api.line.me/v2/bot/user/${idline}/richmenu`,
-    headers: {
-      Authorization: `Bearer {cxcH8hzWaWG6MOXpGByIes9ojXisQnlj5qMrRmRr2iv2I0eZru2eqfeyyhCizzHPMFvxR6HnHpOqEa4LddBMdvLoCSHKX6osxxQ9dyrpyGzbiInR1ac7aPFRVt4evi2yG+S3H1GUWzcWu2Bml59ffQdB04t89/1O/w1cDnyilFU=}`
-    },
-    json: true
-  })
-}
   // Section เงื่อนไขการตอบกลับ
 
 else if (event.message.text === "แจ้งเตือน")
@@ -140,14 +128,14 @@ else
 const quickreply = 
 {
   "type": "text", 
-  "text": "↔ สไลด์เพื่อดูรายการเพิ่มเติม ↔",
+  "text": "สไลด์เพื่อดูรายการเพิ่มเติม",
   "quickReply": { 
     "items": [
 
    
 {
         "type": "action",
-         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "ข่าวสาร/แจ้งเตือน",
@@ -157,7 +145,7 @@ const quickreply =
      
       {
         "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/1.jpg",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "รับเครดิตฟรี",
@@ -166,7 +154,7 @@ const quickreply =
       },
    {
         "type": "action",
-         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "ระบบ ฝาก-ถอน",
@@ -176,7 +164,7 @@ const quickreply =
 
         {
         "type": "action", 
-         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "บัญชีธนาคาร",
@@ -186,7 +174,7 @@ const quickreply =
 
        {
         "type": "action",
-        "imageUrl": "https://niki999.com/slotcat7771.jpg",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "ติดต่อแอดมิน",
@@ -196,7 +184,7 @@ const quickreply =
 
       {
         "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/1.jpg",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "โปรโมชั่น",
@@ -503,11 +491,7 @@ const proreg = [
             ]
           }
 },quickreply
-
 ];
-
-
- 
 // listen on port
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
