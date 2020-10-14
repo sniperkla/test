@@ -79,34 +79,10 @@ if (event.message.text === 'เข้าสู่ระบบ')
 }
   // Section เงื่อนไขการตอบกลับ
 
-else if (event.message.text==='วิธีการใช้งาน')
-{
-    return client.replyMessage(event.replyToken, howTo);
-}
 else if (event.message.text === "แจ้งเตือน")
   {
     return client.replyMessage(event.replyToken, info);
   }
-
-  else if (event.message.text === "แจ้งฝาก")
-  {
-    return client.replyMessage(event.replyToken, depositalert);
-  }
-  else if (event.message.text==='โปรโมชั่นแนะนำ')
-{
-    return client.replyMessage(event.replyToken, recommend2);
-}
-
-else if (event.message.text === "เงื่อนไข 50%")
-{
-
-   return client.replyMessage(event.replyToken,condition1);
-}
-else if (event.message.text === "เงื่อนไข 10%")
-{
-
-   return client.replyMessage(event.replyToken,condition2);
-}
 
 else if (event.message.text.indexOf("โปร") !== -1||event.message.text.indexOf("pro") !== -1)
   {
@@ -171,7 +147,7 @@ const quickreply =
    
 {
         "type": "action",
-         "imageUrl": "https://niki999.com/joker515/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
         "action": {
           "type": "message",
           "label": "ข่าวสาร/แจ้งเตือน",
@@ -181,7 +157,7 @@ const quickreply =
      
       {
         "type": "action",
-        "imageUrl": "https://niki999.com/joker515/1.jpg",
+        "imageUrl": "https://niki999.com/slotcat777/1.jpg",
         "action": {
           "type": "message",
           "label": "รับเครดิตฟรี",
@@ -190,7 +166,7 @@ const quickreply =
       },
    {
         "type": "action",
-         "imageUrl": "https://niki999.com/joker515/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
         "action": {
           "type": "message",
           "label": "ระบบ ฝาก-ถอน",
@@ -200,7 +176,7 @@ const quickreply =
 
         {
         "type": "action", 
-         "imageUrl": "https://niki999.com/joker515/1.jpg",
+         "imageUrl": "https://niki999.com/slotcat777/1.jpg",
         "action": {
           "type": "message",
           "label": "บัญชีธนาคาร",
@@ -210,7 +186,7 @@ const quickreply =
 
        {
         "type": "action",
-        "imageUrl": "https://niki999.com/joker515/1.jpg",
+        "imageUrl": "https://niki999.com/slotcat7771.jpg",
         "action": {
           "type": "message",
           "label": "ติดต่อแอดมิน",
@@ -220,7 +196,7 @@ const quickreply =
 
       {
         "type": "action",
-        "imageUrl": "https://niki999.com/joker515/1.jpg",
+        "imageUrl": "https://niki999.com/slotcat777/1.jpg",
         "action": {
           "type": "message",
           "label": "โปรโมชั่น",
@@ -231,15 +207,6 @@ const quickreply =
   }
 };
 
-
-
-const depositalert = [
-
- {  "type":"text",
-                "text":" 1.เข้าสู่ระบบ\n 2.แจ้งฝาก\n 3.ทำการโอนเงิน\n 4.รอการตรวจสอบ \n\n------ไทยพาณิชย์------ \n\n บัญชี : 945-2-38741-8 \n\n ชื่อ : สุจิตรา ศรีบุญรอด "
-         },quickreply
-
-]
 
 const info = [
 
@@ -254,17 +221,12 @@ const info = [
 const wait = [
 
  {  "type":"text",
-                "text":" เงินจะเข้าสู่ระบบอัตโนมัติ 1-5 นาที \n\n ให้ลองรีเฟซ ดูนะคะ \n\n หากใช้เวลานาน โปรดแจ้ง\n\n https://lin.ee/9oLGCNP"
+                "text":" เงินจะเข้าสู่ระบบอัตโนมัติ 1-5 นาที \n\n ให้ลองรีเฟซ ดูนะคะ \n\n หากใช้เวลานาน โปรดแจ้ง\n\n https://lin.ee/4zt83jX"
 
          },quickreply
 
 ]
 
-
-const follow = 
-{
-wait
- };
 /*const probmoney = [
 
  {  "type":"text",
@@ -275,8 +237,9 @@ wait
 ]*/
 
 const bank = [
-         {	"type":"text",
-                "text":"------ไทยพาณิชย์------ \n\n บัญชี : 945-2-38741-8 \n\n ชื่อ : สุจิตรา ศรีบุญรอด"
+         {	
+  "type": "text",
+  "text": "--- ธนาคารกรุงศรีอยุธยา--\n779-1-06352-5\nนายณรงค์ฤทธิ์ ชูสังข์\n(เลขบัญชีที่โอนเข้ามาต้องตรงกับเลขที่สมัครมาเท่านั้น) \n\n--- ธนาคารไทยพาณิชย์ ---\n654-259351-5\nนาง สุภาภรณ์ ธรรมา\n(เลขบัญชีที่โอนเข้ามาต้องตรงกับเลขที่สมัครมาเท่านั้น) \n\n--- ทรูวอลเล็ต ---\nดวง ทนสระน้อย : 0636647747\nพนม โปร่งจันทึก : 0642476493\n(เบอร์ที่โอนเข้ามาต้องตรงกับเลขที่สมัครมาเท่านั้น) "
 
          },quickreply
 
@@ -391,8 +354,6 @@ const promotion = [
 },quickreply
 
 ];
-
-
     const test = 
    [
    {
@@ -416,7 +377,7 @@ const chatwith =
    [
 {
   "type": "text",
-  "text": "🤡 ติดต่อแอดมินได้ที่ 🤡\n\nhttps://lin.ee/9oLGCNP"
+  "text": "🤡 ติดต่อแอดมินได้ที่ 🤡\n\nhttps://lin.ee/4zt83jX"
 },quickreply
 ];
 
@@ -444,7 +405,7 @@ const freecredit =
         "width": 1037,
         "height": 1039
       },
-      "linkUri": "https://lin.ee/9oLGCNP"
+      "linkUri": "https://lin.ee/4zt83jX"
     }
   ]
 },quickreply
