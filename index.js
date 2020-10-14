@@ -3,8 +3,8 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 
-const defaultAccessToken = '/GohQBLLz98RE6UhQhVt/B2sPGdsnyXjzBpACEZifTiyV6JU/qB1KRz3ohTMAqOZALcumN/tlu436xWqiAkFMJJws1hpeKGCio6JkV3SlRhmTyN2NEnzyiwmwXOxIFaviig9ja0EYdWF21AppHEGBQdB04t89/1O/w1cDnyilFU=';
-const defaultSecret =   '4b5815d16220dbda2f54b22abaed303d' //'c87b61431b3ad1fb9b5fbcff5cc46241';
+const defaultAccessToken = 'kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=';
+const defaultSecret =   'c87b61431b3ad1fb9b5fbcff5cc46241' //'c87b61431b3ad1fb9b5fbcff5cc46241';
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 const request = require("request-promise");
 const config = {
@@ -13,7 +13,7 @@ const config = {
 };
 const LINE_HEADER = {
   'Content-Type': 'application/json',
-   Authorization: `Bearer </GohQBLLz98RE6UhQhVt/B2sPGdsnyXjzBpACEZifTiyV6JU/qB1KRz3ohTMAqOZALcumN/tlu436xWqiAkFMJJws1hpeKGCio6JkV3SlRhmTyN2NEnzyiwmwXOxIFaviig9ja0EYdWF21AppHEGBQdB04t89/1O/w1cDnyilFU=>`
+   Authorization: `Bearer <kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=>`
 };
 //kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=
 const client = new line.Client(config);
@@ -198,10 +198,6 @@ const quickreply =
           "text": "ธนาคาร"
         }
       },
-
-   
-
-     
     ]
   }
 };
