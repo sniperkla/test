@@ -53,10 +53,7 @@ function handleEvent(event) {
   }
 
  
-   if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
-   {
-return client.replyMessage(event.replyToken, test);
-    }
+   
 
 
 if (event.message.text === 'เข้าสู่ระบบ')
