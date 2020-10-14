@@ -442,7 +442,7 @@ const promotion = [
 
             ]
           }
-}
+},quickreply
 
 ];
 
@@ -974,7 +974,7 @@ const follow = [
 "type": "text",
   "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
  },
- promotion,{
+ quickreply,{
                 "type":"text",
                 "text":"🔥เช็คโปรอื่นๆได้ที่ Rich Menu 🔥"
         },
