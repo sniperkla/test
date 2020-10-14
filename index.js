@@ -150,8 +150,7 @@ const gamereg =
       "linkUri": "https://lin.ee/4zt83jX"
     }
   ]
-},quickreply
-];
+}];
 
 
 const quickreply = 
