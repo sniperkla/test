@@ -261,13 +261,10 @@ const wait = [
 ]
 
 
-const follow = [
+const follow = 
 {
 wait
- }
-
- 
-            ];
+ };
 /*const probmoney = [
 
  {  "type":"text",
