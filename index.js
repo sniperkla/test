@@ -442,7 +442,7 @@ const promotion = [
 
             ]
           }
-},quickreply
+}
 
 ];
 
@@ -970,84 +970,7 @@ const proreg = [
 
 
 const follow = [
-/*{
-  "type": "flex",
-  "altText": "🌟 JOKER515 ยินดีต้อนรับค่ะ 🌟",
-  "contents": {
-    "type": "bubble",
-    "direction": "ltr",
-    "header": {
-      "type": "box",
-      "layout": "vertical",
-      "spacing": "none",
-      "contents": [
-        {
-          "type": "text",
-          "text": "🌟 ยินดีต้อนรับเข้าสู่ 🌟",
-          "align": "center",
-          "weight": "bold",
-          "size": "lg",
-          "color": "#000000"
-        }
-      ]
-    },
-    "hero": {
-      "type": "image",
-      "url": "https://www.niki999.com/joker515/logopure.jpg",
-      "size": "full",
-      "aspectRatio": "1.51:1",
-      "aspectMode": "fit"
-    },
-    "body": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": " 🤩  ลูกค้าสามารถ ใช้บริการต่างๆ",
-          "size": "md",
-          "margin" : "lg",
-          "align": "start",
-          "weight": "regular",
-          "color": "#141313"
-        },
-        {
-          "type": "text",
-          "text": " 🤩  ผ่านหน้า Rich Menu ได้เลยค่ะ",
-          "size": "md",
-          "margin" : "lg",
-          "weight": "regular",
-          "color": "#010101"
-        },
-        {
-          "type": "text",  
-          "margin" : "lg",
-          "text": " 🤩  กดปุ่มเพื่อดูวิธีการใช้งาน",
-          "size": "md",
-          "weight": "regular",
-          "color": "#050404"
-        }
-      ]
-    },
-    "footer": {
-      "type": "box",
-      "layout": "horizontal",
-      "contents": [
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "วิธีการใช้",
-            "text": "วิธีการใช้งาน"
-          },
-          "color": "#3FBD38",
-          "margin": "xl",
-          "style": "primary"
-        }
-      ]
-    }
-  }
-},*/{
+{
 "type": "text",
   "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
  },
