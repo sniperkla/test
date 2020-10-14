@@ -3,8 +3,8 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 
-const defaultAccessToken = 'cxcH8hzWaWG6MOXpGByIes9ojXisQnlj5qMrRmRr2iv2I0eZru2eqfeyyhCizzHPMFvxR6HnHpOqEa4LddBMdvLoCSHKX6osxxQ9dyrpyGzbiInR1ac7aPFRVt4evi2yG+S3H1GUWzcWu2Bml59ffQdB04t89/1O/w1cDnyilFU=';
-const defaultSecret = '311e13d1b2c81a48d8ab10c4970637ba';
+const defaultAccessToken = '/GohQBLLz98RE6UhQhVt/B2sPGdsnyXjzBpACEZifTiyV6JU/qB1KRz3ohTMAqOZALcumN/tlu436xWqiAkFMJJws1hpeKGCio6JkV3SlRhmTyN2NEnzyiwmwXOxIFaviig9ja0EYdWF21AppHEGBQdB04t89/1O/w1cDnyilFU=';
+const defaultSecret =   '4b5815d16220dbda2f54b22abaed303d' //'c87b61431b3ad1fb9b5fbcff5cc46241';
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 const request = require("request-promise");
 const config = {
@@ -13,9 +13,9 @@ const config = {
 };
 const LINE_HEADER = {
   'Content-Type': 'application/json',
-   Authorization: `Bearer <cxcH8hzWaWG6MOXpGByIes9ojXisQnlj5qMrRmRr2iv2I0eZru2eqfeyyhCizzHPMFvxR6HnHpOqEa4LddBMdvLoCSHKX6osxxQ9dyrpyGzbiInR1ac7aPFRVt4evi2yG+S3H1GUWzcWu2Bml59ffQdB04t89/1O/w1cDnyilFU=>`
+   Authorization: `Bearer </GohQBLLz98RE6UhQhVt/B2sPGdsnyXjzBpACEZifTiyV6JU/qB1KRz3ohTMAqOZALcumN/tlu436xWqiAkFMJJws1hpeKGCio6JkV3SlRhmTyN2NEnzyiwmwXOxIFaviig9ja0EYdWF21AppHEGBQdB04t89/1O/w1cDnyilFU=>`
 };
-
+//kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=
 const client = new line.Client(config);
 
 
@@ -49,15 +49,6 @@ function handleEvent(event) {
  if (event.type === 'follow') {
 
    client.replyMessage(event.replyToken, follow);
-   return request({
-    method: 'POST',
-    uri: `https://api.line.me/v2/bot/user/${idline}/richmenu/richmenu-a48dede7c53ef0b37fcb9eb7388bcb77`,
-    headers: {
-      Authorization: `Bearer {cxcH8hzWaWG6MOXpGByIes9ojXisQnlj5qMrRmRr2iv2I0eZru2eqfeyyhCizzHPMFvxR6HnHpOqEa4LddBMdvLoCSHKX6osxxQ9dyrpyGzbiInR1ac7aPFRVt4evi2yG+S3H1GUWzcWu2Bml59ffQdB04t89/1O/w1cDnyilFU=}`
-    },
-    json: true
-  }
-  ); 
     
   }
 
@@ -369,7 +360,7 @@ const promotion = [
             imageSize: "contain",
             columns: [
               {
-                thumbnailImageUrl: "https://niki999.com/joker515/555.gif",
+                thumbnailImageUrl: "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif",
                 imageBackgroundColor: "#030600",
                 title: "\t\t💞 ค่ายเกมส์ที่ไม่ควรพลาด 💞",
                 text: "✅ ภาพสวย เล่นเพลิน\n✅ แตกง่ายโบนัสเพียบ 🤩\n✅ จ่ายจริงต้อง ♚JOKER515♚",
@@ -378,7 +369,7 @@ const promotion = [
                   {
                     type: "uri",
                     label: " สมัครสมาชิก ",
-                   uri: "https://member.joker515.com/registe?openExternalBrowser=1"
+                   uri: "https://slotcat777.com/?openExternalBrowser=1"
                   },
                     {
                     type: "uri",
@@ -389,7 +380,7 @@ const promotion = [
               },
           
                {
-                thumbnailImageUrl: "https://niki999.com/joker515/2.jpg",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/3.jpg",
                 imageBackgroundColor: "#030600",
                 title: "🎰 สล๊อตออนไลน์ 🎰",
                 text: "🔥 เกมส์เพียบ รวมหลายค่าย\n🔥 Niki, Joker, SA, EVO\n🔥 เยอะสะใจแน่นอน",
@@ -398,17 +389,17 @@ const promotion = [
                   {
                     type: "uri",
                     label: " สมัครสมาชิก ",
-                    uri: "https://member.joker515.com/register?openExternalBrowser=1"
+                    uri: "https://slotcat777.com/?openExternalBrowser=1"
                   },
            {
                     type: "uri",
                     label: "  ติดต่อแอดมิน ",
-                   uri: "https://lin.ee/9oLGCNP"
+                   uri: "https://lin.ee/4zt83jX"
           }
                 ]
               },
                {
-                thumbnailImageUrl: "https://niki999.com/joker515/3.jpg",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/fish.jpg",
                 imageBackgroundColor: "#030600",
                 title: "🐟 ยิงปลาก็มีนะจ๊ะ 🐟",
                 text: "💸 เล่นง่าย & เล่นเพลิน\n💸 แตกง่าย จ่ายไว\n💸 ปลอดภัย มั่นใจได้แน่นอน",
@@ -417,17 +408,17 @@ const promotion = [
                   {
                     type: "uri",
                     label: " สมัครสมาชิก ",
-                    uri: "https://member.joker515.com/register?openExternalBrowser=1"
+                    uri: "https://slotcat777.com?openExternalBrowser=1"
                   },
            {
                     type: "uri",
                     label: "  ติดต่อแอดมิน ",
-                   uri: "https://lin.ee/9oLGCNP"
+                   uri: "https://lin.ee/4zt83jX"
           }
                 ]
               },
                 {
-                thumbnailImageUrl: "https://niki999.com/joker515/1.jpg",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/casino.jpg",
                 imageBackgroundColor: "#030600",
                 title: "🃏 บาคาร่าออนไลน์ 🃏",
                 text: "♦️ SA SEXY GAMING\n♦️ รวบรวมมาไว้ที่นี่\n♦️ มีแอดมินคอยดูแล 24 ชม.",
@@ -436,12 +427,12 @@ const promotion = [
                   {
                     type: "uri",
                     label: " สมัครสมาชิก ",
-                    uri: "https://member.joker515.com/register?openExternalBrowser=1"
+                    uri: "https://slotcat777.com/?openExternalBrowser=1"
                   },
            {
                     type: "uri",
                     label: "  ติดต่อแอดมิน ",
-                   uri: "https://lin.ee/9oLGCNP"
+                   uri: "https://lin.ee/4zt83jX"
           }
                 ]
               }
@@ -884,11 +875,6 @@ const freecredit =
 
 const proreg = [
 
-  /*       {
-                "type":"text",
-                "text":"📲 สไลด์เพื่อดูโปรโมชั่นเพิ่มเติม 📲"
-        }, */
-
 {
           type: "template",
           altText: "🔥 โปรโมชั่นมาแรงส์ 🔥",
@@ -898,65 +884,81 @@ const proreg = [
             imageSize: "contain",
             columns: [
 
-            {
-                thumbnailImageUrl: "https://niki999.com/joker515/logo.gif",
-                imageBackgroundColor: "#030600",
-                title: "\t\t👑 www.joker515.com 👑",
-                text: "💯  ฝาก-ถอน อัติโนมัติ \n💯  โปรโมชั่นเยอะ จัดเต็ม\n💯  เกมส์เพียบ ลองเลย 🔥",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://joker515.com/promotion?openExternalBrowser=1"
-          }
-                ]
-              },
               {
-                thumbnailImageUrl: "https://niki999.com/joker515/proreg/3.jpg?se=11",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/2.jpg?se=11",
                 imageBackgroundColor: "#030600",
-                title: "\t\t💎 ฝากครั้งแรกรับเพิ่ม 50 % 💎",
-                text: "✅  รับโบนัสสูงสุด 1000\n✅  ทำยอด 10 เท่า 🤩\n✅  สล๊อตเท่านั้น",
+                title: "\t\t💎 สำหรับผู้เล่นใหม่ ฝาก 50รับ50💎",
+                text: "✅  รับไปเลยทันที50\n✅  ไม่ต้องทำยอดเทริ์นให้เสียเวลา 🤩\n✅  เล่นได้ทุกค่ายเลยนะเมี๊ยว",
                
                 actions: [
                     {
                     type: "uri",
                     label: "รับโปรโมชั่น",
-                   uri: "https://joker515.com/promotion?openExternalBrowser=1"
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
           }
                 ]
               },
                {
-                thumbnailImageUrl: "https://niki999.com/joker515/proreg/1.jpg?se=1s",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/8.jpg?se=1s",
                 imageBackgroundColor: "#030600",
-                title: "\t\t💞 แทงถูกผิด 💞",
-                text: "🔥  ติดต่อกัน 10 ครั้ง\n🔥  รับเงินคืนทันที (ยอดที่น้อยที่สุด)\n🔥  คาสิโนสดเท่านั้น",
+                title: "\t\t💞 ปลอบใจ กลับโลกมือเปล่า 💞",
+                text: "🔥  บิลเสีย 5 ครั้ง ไม่มียอดถอน 1 วัน\n🔥 รับเงินคืนทันที (ยอดที่น้อยที่สุด)\n🔥 สูงสุด 200 บาท เทริ์น3เท่า",
                
                 actions: [
                  
                     {
                     type: "uri",
                     label: "รับโปรโมชั่น",
-                   uri: "https://joker515.com/promotion?openExternalBrowser=1"
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
           }
                 ]
               },
                 {
-                thumbnailImageUrl: "https://niki999.com/joker515/proreg/4.jpg?xx=4c",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/4.jpg?xx=4c",
                 imageBackgroundColor: "#030600",
-                title: "\t\t✨ ทุกยอดฝากรับเพิ่ม ✨",
-                text: "🥳  รับโบนัสไปเลย 10 %\n🥳  รับโบนัสไม่เกิน 1000 บาท\n🥳  สล๊อตเท่านั้น",
+                title: "\t\t✨ออกอวกาศครบ 7 วัน ✨",
+                text: "🥳 ฝากอย่างน้อย 300 บาท / วัน\n🥳 ครบ 7 วัน \n🥳 รับไปเลย 300 เทริน์ 2 เท่า",
                
                 actions: [
                  
                     {
                     type: "uri",
                     label: "รับโปรโมชั่น",
-                   uri: "https://joker515.com/promotion?openExternalBrowser=1"
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
+          }
+                ]
+              },
+              {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/5.jpg?xx=4c",
+                imageBackgroundColor: "#030600",
+                title: "\t\t✨แนะนำเพื่อน ✨",
+                text: "🥳 ยิ่งชวนเพื่อนมาก\n🥳 ยิ่งมีโอกาสได้มาก \n🥳 ให้เยอะที่สุด",
+               
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รับโปรโมชั่น",
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
+          }
+                ]
+              },
+                 {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/6.jpg?xx=4c",
+                imageBackgroundColor: "#030600",
+                title: "\t\t✨มื้อเที่ยงบนดวงจันทร์ ✨",
+                text: "🥳 ฝากตามช่วงเวลา \n🥳 รับโบนัสไปเลย ตามรูป \n🥳 เทริ์น 3 เท่า",
+               
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รับโปรโมชั่น",
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
           }
                 ]
               }
+                
                 
             
 
@@ -966,77 +968,6 @@ const proreg = [
 
 ];
 
-const forlogin = [
-{
-  "type": "flex",
-  "altText": "🔥 เว็บใหญ่ มาแรงส์ แซงทุกเว็บ 🔥",
-  "contents": {
-    "type": "bubble",
-    "direction": "ltr",
-    "header": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "🔥 เว็บใหญ่ มาแรงส์ แซงทุกเว็บ 🔥",
-          "size": "md",
-          "align": "center",
-          "weight": "bold"
-        }
-      ]
-    },
-    "hero": {
-      "type": "image",
-      "url": "https://niki999.com/joker515/logopure.jpg",
-      "size": "full",
-      "aspectRatio": "1.91:1",
-      "aspectMode": "fit"
-    },
-    "body": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "🎮  ลูกค้าสามารถเข้าเล่นเกมส์",
-          "margin": "sm",
-          "align": "start"
-        },
-        {
-          "type": "text",
-          "text": "🎮  โดยการเข้าสู่ระบบ",
-          "margin": "md",
-          "align": "start"
-        },
-        {
-          "type": "text",
-          "text": "🎮  ผ่านเว็บไซต์ ได้เลยค่ะ",
-          "margin": "md",
-          "align": "start"
-        }
-      ]
-    },
-    "footer": {
-      "type": "box",
-      "layout": "horizontal",
-      "contents": [
-        {
-          "type": "button",
-          "action": {
-            "type": "uri",
-            "label": "เข้าสู่ระบบ",
-            "uri": "https://member.joker515.com/login?openExternalBrowser=1"
-          },
-          "color": "#3DC10A",
-          "margin": "md",
-          "style": "primary"
-        }
-      ]
-    }
-  }
-},quickreply
-];
 
 const joker515 = 
 {
@@ -1071,7 +1002,7 @@ const joker515 =
                 title: "🆓 สมัครตอนนี้รับฟรี 🆓",
                 text: "✔️ สมัครวันนี้ เพียงแค่แชร์ลงกลุ่ม\n✔️ รับไปเลย 50 เครดิต\n✔️ แจกจริงไม่ได้โม้",
                   imageBackgroundColor: "#000000",
-                actions: [
+                actions: [ 
                   {
                     type: "uri",
                     label: " สมัครสมาชิก ",
@@ -1225,25 +1156,16 @@ const follow = [
   }
 },*/{
 "type": "text",
-  "text": "🔥ยินดีต้อนรับเข้าสู่Joker515ค่ะ🔥"
+  "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
  },
 
- joker515,recommend1,{
+ joker515,{
                 "type":"text",
                 "text":"🔥เช็คโปรอื่นๆได้ที่ Rich Menu 🔥"
         },
 
             ];
 
-
-  const condition1 = {
-  "type": "text",
-  "text": "⚠️ เงื่อนไขโปร 50 % ⚠️\n\nลูกค้าจะไม่สามารถเติมเงิน\n\nได้ขณะที่ใช้โปร 50% อยู่\n\nลูกค้าจะต้องเล่นให้ผ่านเงื่อนไข\n\nหรือยอดเงินหมด"
-};
-const condition2 = {
-  "type": "text",
-  "text": "⚠️ เงื่อนไขโปร 10 % ⚠️\n\nลูกค้าจะไม่สามารถเติมเงิน\n\nได้ขณะที่ใช้โปร 10% อยู่\n\nลูกค้าจะต้องเล่นให้ผ่านเงื่อนไข\n\nหรือยอดเงินหมด"
-};
  
 // listen on port
 const port = process.env.PORT || 3000;
