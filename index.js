@@ -52,11 +52,7 @@ function handleEvent(event) {
     
   }
 
- if (event.message.type === 'image') {//กรณ๊อื่น ที่เป็น image ส่วนมากจะเป็น พวก แจ้งฝาก
-return client.replyMessage(event.replyToken, wait);
-    }
-
-
+ 
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
 return client.replyMessage(event.replyToken, test);
@@ -162,12 +158,7 @@ else
 };
 
 
-const follow = [
-{
-"type": "text",
-  "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
- },promotion
-            ];
+
 
 // payload section
 
@@ -551,7 +542,12 @@ const proreg = [
 
 ];
 
-
+const follow = [
+{
+"type": "text",
+  "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
+ },promotion
+            ];
  
 // listen on port
 const port = process.env.PORT || 3000;
