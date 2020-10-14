@@ -145,7 +145,7 @@ const gamereg =
           },
           "imageUrl": "https://niki999.com/slotcat777/hotjoker.jpg"
         },
-  {
+        {
           "imageUrl": "https://niki999.com/slotcat777/hot.jpg",
           "action": {
            
@@ -153,8 +153,10 @@ const gamereg =
             "uri": "https://slotcat777.com/?openExternalBrowser=1"
           }
         }
-    }
+    ]
 
+
+}
    }
 ];
 
