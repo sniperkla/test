@@ -153,8 +153,8 @@ const gamereg =
         }
         ]
       }
+    }
 ]
-
 const quickreply = 
 {
   "type": "text", 
