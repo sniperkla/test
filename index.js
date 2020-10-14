@@ -447,7 +447,7 @@ const freecredit =
       "linkUri": "https://lin.ee/9oLGCNP"
     }
   ]
-},quickreply
+}
 ];
 
 const proreg = [
@@ -550,7 +550,7 @@ const follow = [
 {
 "type": "text",
   "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
- },proreg,quickreply
+ },freecredit
             ];
 
  
