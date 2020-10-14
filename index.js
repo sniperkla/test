@@ -94,7 +94,7 @@ else if (event.message.text.indexOf("ธนาคาร") !== -1||event.message.
   }
  else if (event.message.text.indexOf("เกมส์แนะนำ") !== -1)
  {         
- return client.replyMessage(event.replyToken,regis);
+ return client.replyMessage(event.replyToken,gamereg);
  }
 
  else if (event.message.text.indexOf("เครดิ") !== -1|| event.message.text.indexOf("ไม่ต้องฝา")!==-1)         
@@ -185,7 +185,7 @@ const quickreply =
 
  {
         "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "เกมส์แนะนำ",
@@ -225,7 +225,7 @@ const quickreply =
 
       {
         "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
         "action": {
           "type": "message",
           "label": "โปรโมชั่น",
