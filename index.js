@@ -231,13 +231,7 @@ const quickreply =
   }
 };
 
-const follow = [
-{
-quickreply
- }
 
- 
-            ];
 
 const depositalert = [
 
@@ -267,7 +261,13 @@ const wait = [
 ]
 
 
+const follow = [
+{
+wait
+ }
 
+ 
+            ];
 /*const probmoney = [
 
  {  "type":"text",
