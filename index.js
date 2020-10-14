@@ -289,10 +289,6 @@ const deposit = [
 
 
 const promotion = [
-         {
-                "type":"text",
-                "text":"📲 สไลด์เพื่อดูโปรโมชั่นเพิ่มเติม 📲"
-        },
 
 {
           type: "template",
@@ -385,7 +381,7 @@ const promotion = [
 
             ]
           }
-},quickreply
+}
 
 ];
 
