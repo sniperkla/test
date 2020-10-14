@@ -128,84 +128,31 @@ const gamereg =
    [
      {
                 "type":"text",
-                "text":"      💸 5 เกมส์ทำเงิน ที่ดีที่สุด 💸 \n\n 👑 จากค่าย Nikigames จะมีเกมส์ไหนบ้าง เช็คได้จากรูปได้เลยจ้า 😘 \n\n 👍 ภาพสวย เล่นง่าย แตกบ่อย ต้องเข้ามาลอง "
+                "text":"      💸 5 เกมส์ทำเงิน ที่ดีที่สุด 💸 \n\n 👑 จากค่าย Nikigames และ Joker จะมีเกมส์ไหนบ้าง เช็คได้จากรูปได้เลยจ้า 😘 \n\n 👍 ภาพสวย เล่นง่าย แตกบ่อย ต้องเข้ามาลอง "
       },
 
     {
    "type": "template",
-    "altText": "🔥 5 เกมส์ทำเงิน ที่ดีที่สุดจากค่าย Nikigames",
+    "altText": "🔥 5 เกมส์ทำเงิน ที่ดีที่สุดจากค่าย Nikigames และ Joker",
     "template": {
       "columns": [
 
               {
           "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
             "type": "uri"
            
           },
-          "imageUrl": "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif"
+          "imageUrl": "https://niki999.com/slotcat777/hotjoker.jpg"
         },
   {
-          "imageUrl": "https://niki999.com/slotcat777/4.jpg",
+          "imageUrl": "https://niki999.com/slotcat777/hot.jpg",
           "action": {
            
             "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
           }
-        },
-
-
-        {
-          "imageUrl": "https://niki999.com/slotcat777/2.jpg",
-          "action": {
-            "type": "uri",
-           
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-    
-        {
-          "imageUrl": "https://niki999.com/slotcat777/3.jpg",
-          "action": {
-           
-            "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-        {
-          "action": {
-            
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/8.jpg"
-        },
-        {
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            
-            "type": "uri"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/5.jpg"
-        },
-        {
-          "imageUrl": "https://niki999.com/slotcat777/6.jpg",
-          "action": {
-            "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-           
-          }
-        },
-        {
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri"
-          
-          },
-          "imageUrl": "https://niki999.com/slotcat777/7.jpg"
         }
-      ],
-      "type": "image_carousel"
     }
 
    }
