@@ -128,7 +128,7 @@ const gamereg = [
   {
                 "type":"text",
                 "text":"      💸 5 เกมส์ทำเงิน ที่ดีที่สุด 💸 \n\n 👑 จากค่าย Nikigames และ Joker จะมีเกมส์ไหนบ้าง เช็คได้จากรูปได้เลยจ้า 😘 \n\n 👍 ภาพสวย เล่นง่าย แตกบ่อย ต้องเข้ามาลอง "
-      },
+      },{
           "template": {
       "type": "image_carousel",
       "columns": [
@@ -150,6 +150,7 @@ const gamereg = [
         }
         ]
       }
+    }
 ]
 
 const quickreply = 
