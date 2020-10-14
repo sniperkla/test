@@ -145,10 +145,6 @@ else if (event.message.text.indexOf("ธนาคาร") !== -1||event.message.
   {
     return client.replyMessage(event.replyToken,wait);
   }
-else if (event.message.text==="joker515")        
-  {
-    return client.replyMessage(event.replyToken,promotion);
-  }
 else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.indexOf("ฮั")!==-1)        
   {
     return client.replyMessage(event.replyToken,greeting);
@@ -177,15 +173,7 @@ const quickreply =
   "quickReply": { 
     "items": [
 
-    {
-        "type": "action", 
-       "imageUrl": "https://niki999.com/joker515/1.jpg",
-        "action": {
-          "type": "message",
-          "label": "Joker515",
-          "text": "joker515"
-        }
-      },
+   
 {
         "type": "action",
          "imageUrl": "https://niki999.com/joker515/1.jpg",
@@ -195,29 +183,7 @@ const quickreply =
           "text": "แจ้งเตือน"
         }
       },
-      {
-        "type": "action",
-         "imageUrl": "https://niki999.com/joker515/1.jpg",
-        "action": {
-          "type": "message",
-          "label": "โปรโมชั่นแนะนำ",
-          "text": "โปรโมชั่นแนะนำ"
-        }
-      },
-
-
-
-
-
-      {
-        "type": "action",
-         "imageUrl": "https://niki999.com/joker515/1.jpg",
-        "action": {
-          "type": "message",
-          "label": "ฝากเงิน",
-          "text": "แจ้งฝาก"
-        }
-      },
+     
       {
         "type": "action",
         "imageUrl": "https://niki999.com/joker515/1.jpg",
@@ -246,17 +212,6 @@ const quickreply =
           "text": "ธนาคาร"
         }
       },
-  {
-        "type": "action",
-        "imageUrl": "https://niki999.com/joker515/1.jpg",
-        "action": {
-          "type": "message",
-          "label": "สมัครสมาชิก",
-          "text": "สมัครสมาชิก"
-        }
-      },
-
-
 
        {
         "type": "action",
@@ -277,15 +232,6 @@ const quickreply =
           "text": "โปรโมชั่น"
         }
       },
-       {
-        "type": "action",
-     "imageUrl": "https://niki999.com/joker515/1.jpg",
-        "action": {
-          "type": "message",
-          "label": "เข้าเล่นเกม",
-          "text": "เข้าสู่ระบบ"
-        }
-      }
     ]
   }
 };
@@ -446,346 +392,7 @@ const promotion = [
 
 ];
 
-const recommend1 = {
-  "type": "flex",
-  "altText": "🔥 โปรโมชั่นแนะนำ 🔥",
-  "contents": {
-    "type": "carousel",
-    "contents": [
-      {
-        "type": "bubble",
-        "direction": "ltr",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🔥 โปรโมชั่นแนะนำ 🔥",
-              "size": "lg",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://niki999.com/joker515/proreg/3.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "fit"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "❤️ ฝากครั้งแรกรับโบนัสเพิ่ม 50%",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "❤️ รับโบนัสสูงสุดไม่เกิน 1000 บาท",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "❤️ ทำยอดเงินให้ได้ 10 เท่าถอนได้เลย",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "** เล่นได้เฉพาะสล็อตเท่านั้น **",
-              "margin": "lg",
-              "size": "md",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "action": {
-                "type": "message",
-                "label": "⚠️ เงื่อนไข ⚠️",
-                "text": "เงื่อนไข 50%"
-              },
-              "color": "#55D226",
-              "style": "primary"
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "direction": "ltr",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🔥 โปรโมชั่นแนะนำ 🔥",
-              "size": "lg",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://niki999.com/joker515/proreg/4.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "fit"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🌟 ทุกยอดฝากโบนัสเพิ่ม 10%",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "🌟 รับโบนัสสูงสุดไม่เกิน 1000 บาท",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "🌟 ทำยอดเงินให้ได้ 3 เท่าถอนได้ทันที",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "** เล่นได้เฉพาะสล็อตเท่านั้น **",
-              "margin": "lg",
-              "size": "md",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "action": {
-                "type": "message",
-                "label": "⚠️ เงื่อนไข ⚠️",
-                "text": "เงื่อนไข 10%"
-              },
-              "color": "#55D226",
-              "style": "primary"
-            }
-          ]
-        }
-      }
-    ]
-  }
-};
 
-const recommend2 = [
-{
-  "type": "flex",
-  "altText": "🔥 โปรโมชั่นแนะนำ 🔥",
-  "contents": {
-    "type": "carousel",
-    "contents": [
-      {
-        "type": "bubble",
-        "direction": "ltr",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🔥 โปรโมชั่นแนะนำ 🔥",
-              "size": "lg",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://niki999.com/joker515/proreg/3.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "fit"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "❤️ ฝากครั้งแรกรับโบนัสเพิ่ม 50%",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "❤️ รับโบนัสสูงสุดไม่เกิน 1000 บาท",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "❤️ ทำยอดเงินให้ได้ 10 เท่าถอนได้เลย",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "** เล่นได้เฉพาะสล็อตเท่านั้น **",
-              "margin": "lg",
-              "size": "md",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "action": {
-                "type": "message",
-                "label": "⚠️ เงื่อนไข ⚠️",
-                "text": "เงื่อนไข 50%"
-              },
-              "color": "#55D226",
-              "style": "primary"
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "direction": "ltr",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🔥 โปรโมชั่นแนะนำ 🔥",
-              "size": "lg",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://niki999.com/joker515/proreg/4.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "fit"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "🌟 ทุกยอดฝากโบนัสเพิ่ม 10%",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "🌟 รับโบนัสสูงสุดไม่เกิน 1000 บาท",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "🌟 ทำยอดเงินให้ได้ 3 เท่าถอนได้ทันที",
-              "margin": "sm",
-              "weight": "regular"
-            },
-            {
-              "type": "text",
-              "text": "** เล่นได้เฉพาะสล็อตเท่านั้น **",
-              "margin": "lg",
-              "size": "md",
-              "align": "center",
-              "weight": "bold"
-            }
-          ]
-        },
-        "footer": {
-          "type": "box",
-          "layout": "horizontal",
-          "contents": [
-            {
-              "type": "button",
-              "action": {
-                "type": "message",
-                "label": "⚠️ เงื่อนไข ⚠️",
-                "text": "เงื่อนไข 10%"
-              },
-              "color": "#55D226",
-              "style": "primary"
-            }
-          ]
-        }
-      }
-    ]
-  }
-},quickreply
-];
-
-
-
-   const howTo = 
-   [
-  {
-  "type": "imagemap",
-  "baseUrl": "https://niki999.com/joker515/howto.jpg?q=g54", //ใส่ param ?xxx เพื่อให้สามารถแสดงผลแบบ 1 รูปได้ หากไม่ใส่จะไม่สามารถ render รูปภาพได้
-  "altText": "🔴 วิธีการใช้งาน",
-  "baseSize": {
-    "width": 1040,
-    "height": 1040
-  },
-  "actions": []
-},quickreply
-  ];
-     const forReg = 
-   [
-  {
-  "type": "imagemap",
-  "baseUrl": "https://niki999.com/joker515/forreg.jpg?q=00d5", //ใส่ param ?xxx เพื่อให้สามารถแสดงผลแบบ 1 รูปได้ หากไม่ใส่จะไม่สามารถ render รูปภาพได้
-  "altText": "🔴 ขอบคุณที่สมัครนะคะ",
-  "baseSize": {
-    "width": 1040,
-    "height": 1040
-  },
-  "actions": []
-},quickreply
-
-
-  ];
     const test = 
    [
    {
@@ -799,40 +406,11 @@ const regis =
    [
   {
   "type": "text",
-  "text": "💖 สมัครสมาชิกได้ที่ 💖  \n\nhttps://member.joker515.com/register?openExternalBrowser=1"
+  "text": "💖 สมัครสมาชิกได้ที่ 💖  \n\nhttps://slotcat777.com?openExternalBrowser=1"
 },quickreply
 
 ];
 
-
-const greeting = 
-   [
-{
-  "type": "text",
-  "text": "🤖 สวัสดีค่ะ ฉันเป็นบอท 🤖 \n\n> สามารถใช้เมนูต่างๆ \n> ผ่าน Rich Menu ได้เลยค่ะ\n"
-},
- {
-  "type": "imagemap",
-  "baseUrl": "https://niki999.com/joker515/howto.jpg?q=g54", //ใส่ param ?xxx เพื่อให้สามารถแสดงผลแบบ 1 รูปได้ หากไม่ใส่จะไม่สามารถ render รูปภาพได้
-  "altText": "🤖 สวัสดีค่ะ ฉันเป็นบอท",
-  "baseSize": {
-    "width": 1040,
-    "height": 1040
-  },
-  "actions": []
-},quickreply
-];
-const entrance = 
-   [
-{
-  "type": "text",
-  "text": "🤖 คุณกำลังมองหาสิ่งนี้อยู่ใช่ไหม 🤖"
-},
-  {
-  "type": "text",
-  "text": "https://joker515.com?openExternalBrowser=1"
-},quickreply
-];
 
 const chatwith = 
    [
@@ -843,7 +421,6 @@ const chatwith =
 ];
 
 
-
 const freecredit =
    [
 {
@@ -852,7 +429,7 @@ const freecredit =
 },
  {
   "type": "imagemap",
-  "baseUrl": "https://www.niki999.com/joker515/50.jpg?w=cd4", //ใส่ param ?xxx เพื่อให้สามารถแสดงผลแบบ 1 รูปได้ หากไม่ใส่จะไม่สามารถ render รูปภาพได้
+  "baseUrl": "https://www.niki999.com/slotcat777/freecredit.jpg?w=cd4", //ใส่ param ?xxx เพื่อให้สามารถแสดงผลแบบ 1 รูปได้ หากไม่ใส่จะไม่สามารถ render รูปภาพได้
   "altText": "🔥 กลับมาแล้วจ้าใครยังไม่ได้รับ เครดิตฟรี",
   "baseSize": {
     "width": 1040,
@@ -974,11 +551,7 @@ const follow = [
 "type": "text",
   "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
  },
- quickreply,{
-                "type":"text",
-                "text":"🔥เช็คโปรอื่นๆได้ที่ Rich Menu 🔥"
-        },
-
+ promotion
             ];
 
  
