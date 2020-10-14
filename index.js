@@ -53,7 +53,10 @@ function handleEvent(event) {
   }
 
  
-   
+   if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
+   {
+return client.replyMessage(event.replyToken, test);
+    }
 
 
 if (event.message.text === 'เข้าสู่ระบบ')
@@ -155,8 +158,6 @@ else
 };
 
 
-
-
 // payload section
 
 
@@ -230,6 +231,14 @@ const quickreply =
   }
 };
 
+const follow = [
+{
+quickreply
+ }
+
+ 
+            ];
+
 const depositalert = [
 
  {  "type":"text",
@@ -286,6 +295,10 @@ const deposit = [
 
 
 const promotion = [
+         {
+                "type":"text",
+                "text":"📲 สไลด์เพื่อดูโปรโมชั่นเพิ่มเติม 📲"
+        },
 
 {
           type: "template",
@@ -378,7 +391,7 @@ const promotion = [
 
             ]
           }
-}
+},quickreply
 
 ];
 
@@ -535,12 +548,7 @@ const proreg = [
 
 ];
 
-const follow = [
-{
-"type": "text",
-  "text": "🔥Slotcat 777 ยินดีต้อนรับนะเมี๊ยวว🔥"
- },promotion
-            ];
+
  
 // listen on port
 const port = process.env.PORT || 3000;
