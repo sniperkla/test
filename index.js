@@ -72,7 +72,7 @@ else if (event.message.text === "แจ้งเตือน")
     return client.replyMessage(event.replyToken, info);
   }
 
-else if (event.message.text.indexOf("โปร") !== -1||event.message.text.indexOf("pro") !== -1)
+else if (event.message.text.indexOf("โปร") !== -1)
   {
     return client.replyMessage(event.replyToken, proreg);
   }
@@ -344,7 +344,7 @@ const promotion = [
                 thumbnailImageUrl: "https://niki999.com/slotcat777/fish.jpg",
                 imageBackgroundColor: "#030600",
                 title: "🐟 ยิงปลา/เล่นง่าย/ภาพสวย 🐟",
-                text: "💸 เล่นง่าย & เล่นเพลิน\n💸 แตกง่าย จ่ายไว\n💸 ปลอดภัย มั่นใจได้แน่นอน",
+                text: "💯 เล่นง่าย ภาพสวย\n💯 แตกบ่อย จ่ายจริง\n💯 ปลอดภัย มั่นใจได้ 100%",
                 
                 actions: [
                   {
@@ -362,8 +362,8 @@ const promotion = [
                 {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/casino.jpg",
                 imageBackgroundColor: "#030600",
-                title: "🃏 บาคาร่าออนไลน์ 🃏",
-                text: "♦️ SA SEXY GAMING\n♦️ รวบรวมมาไว้ที่นี่\n♦️ มีแอดมินคอยดูแล 24 ชม.",
+                title: "😍 บาคาร่าออนไลน์ 😍",
+                text: "💋 SA SEXY GAMING\n💋 รวบรวมมาไว้ที่นี่\n💋 มีครบเล่นเพลิน",
                 
                 actions: [
                   {
