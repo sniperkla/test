@@ -927,37 +927,8 @@ const proreg = [
                    uri: "https://slotcat777.com?openExternalBrowser=1"
           }
                 ]
-              },
-              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/5.jpg?xx=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t✨แนะนำเพื่อน ✨",
-                text: "🥳 ยิ่งชวนเพื่อนมาก\n🥳 ยิ่งมีโอกาสได้มาก \n🥳 ให้เยอะที่สุด",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
-          }
-                ]
-              },
-                 {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/6.jpg?xx=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t✨มื้อเที่ยงบนดวงจันทร์ ✨",
-                text: "🥳 ฝากตามช่วงเวลา \n🥳 รับโบนัสไปเลย ตามรูป \n🥳 เทริ์น 3 เท่า",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
-          }
-                ]
               }
+      
                 
                 
             
