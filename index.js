@@ -51,7 +51,9 @@ function handleEvent(event) {
    client.replyMessage(event.replyToken, follow);
     
   }
-
+if (event.message.type === 'image') {//กรณ๊อื่น ที่เป็น image ส่วนมากจะเป็น พวก แจ้งฝาก
+return client.replyMessage(event.replyToken, wait);
+    }
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
@@ -97,7 +99,7 @@ else if (event.message.text.indexOf("ธนาคาร") !== -1||event.message.
  return client.replyMessage(event.replyToken,gamereg);
  }
 
- else if (event.message.text.indexOf("เครดิ") !== -1|| event.message.text.indexOf("ไม่ต้องฝา")!==-1)         
+ else if (event.message.text.indexOf("เครดิ") !== -1|| event.message.text.indexOf("ไม่ต้องฝาก")!==-1|| event.message.text.indexOf("รับ100")!==-1)         
   {
     return client.replyMessage(event.replyToken,freecredit);
   }
@@ -113,6 +115,11 @@ else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.ind
   {
     return client.replyMessage(event.replyToken,entrance);
   }
+else if (event.message.text === "แอดมินเงินไม่เข้า" || event.message.text === "แอดเงินไม่เข้า" ||event.message.text.indexOf("เงินไม่")!==-1)
+  {
+    return client.replyMessage(event.replyToken,wait);
+  }
+
 else
   {
     return client.replyMessage(event.replyToken, test);
@@ -201,6 +208,16 @@ const quickreply =
     ]
   }
 };
+
+const wait = [
+
+ {  "type":"text",
+                "text":" เงินจะเข้าสู่ระบบอัตโนมัติ 1-5 นาที \n\n ให้ลองรีเฟซ ดูนะคะ \n\n หากใช้เวลานาน โปรดแจ้ง\n\n https://lin.ee/4zt83jX"
+
+         },quickreply
+
+]
+
 const gamereg =
    [
      {
