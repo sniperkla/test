@@ -46,11 +46,11 @@ function handleEvent(event) {
 
    console.log(quickreply);
 
- if (event.type === 'follow') {
+/* if (event.type === 'follow') {
 
    client.replyMessage(event.replyToken, follow);
     
-  }
+  } */
 if (event.message.type === 'image') {//กรณ๊อื่น ที่เป็น image ส่วนมากจะเป็น พวก แจ้งฝาก
 return client.replyMessage(event.replyToken, wait);
     }
