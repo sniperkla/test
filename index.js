@@ -115,11 +115,6 @@ else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.ind
   {
     return client.replyMessage(event.replyToken,entrance);
   }
-else if (event.message.text === "แอดมินเงินไม่เข้า" || event.message.text === "แอดเงินไม่เข้า" ||event.message.text.indexOf("เงินไม่")!==-1)
-  {
-    return client.replyMessage(event.replyToken,wait);
-  }
-
 else
   {
     return client.replyMessage(event.replyToken, test);
@@ -263,15 +258,6 @@ const info = [
 
 ]
 
-
-const wait = [
-
- {  "type":"text",
-                "text":" เงินจะเข้าสู่ระบบอัตโนมัติ 1-5 นาที \n\n ให้ลองรีเฟซ ดูนะคะ \n\n หากใช้เวลานาน โปรดแจ้ง\n\n https://lin.ee/4zt83jX"
-
-         },quickreply
-
-]
 
 /*const probmoney = [
 
