@@ -75,7 +75,7 @@ else if (event.message.text === "ประกาศ")
   }
   else if (event.message.text === "Lucky Wheel")
   {
-    return client.replyMessage(event.replyToken, luckywheelk);
+    return client.replyMessage(event.replyToken, luckywheel);
   }
 
 else if (event.message.text.indexOf("โปร") !== -1)
