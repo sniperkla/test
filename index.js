@@ -481,9 +481,9 @@ const proreg = [
                
                 actions: [
                     {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+                    type: "message",
+                    label : "ดูรายละเอียด"
+                    text : "Lucky Wheel",
           }
                 ]
               },
