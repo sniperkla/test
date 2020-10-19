@@ -460,7 +460,20 @@ const proreg = [
             imageAspectRatio: "square",
             imageSize: "contain",
             columns: [
-
+ {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/lucky.jpg?se=11",
+                imageBackgroundColor: "#030600",
+                title: "\t\t☸️ Luky Wheel กงล้อมหัศจรรย์ ☸️",
+                text: "🔥 เติมเงินครบทุกๆ 1,000\n🔥 รับสิทธิ์ 1 ครั้ง \n🔥 ไม่จำกัดสิทธิ์",
+               
+                actions: [
+                    {
+                    type: "uri",
+                    label: "รับโปรโมชั่น",
+                   uri: "https://slotcat777.com?openExternalBrowser=1"
+          }
+                ]
+              },
               {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/2.jpg?se=11",
                 imageBackgroundColor: "#030600",
