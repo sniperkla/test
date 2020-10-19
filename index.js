@@ -482,8 +482,8 @@ const proreg = [
                 actions: [
                     {
                     type: "message",
-                    label : "ดูรายละเอียด"
-                    text : "Lucky Wheel",
+                    label : "ดูรายละเอียด",
+                    text : "Lucky Wheel"
           }
                 ]
               },
