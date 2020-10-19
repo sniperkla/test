@@ -73,6 +73,10 @@ else if (event.message.text === "ประกาศ")
   {
     return client.replyMessage(event.replyToken, info);
   }
+  else if (event.message.text === "Lucky Wheel")
+  {
+    return client.replyMessage(event.replyToken, luckywheelk);
+  }
 
 else if (event.message.text.indexOf("โปร") !== -1)
   {
@@ -131,6 +135,15 @@ const quickreply =
   "text": "สไลด์เพื่อดูรายการเพิ่มเติม",
   "quickReply": { 
     "items": [
+    {
+        "type": "action",
+        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
+        "action": {
+          "type": "message",
+          "label": "Lucky Wheel",
+          "text": "Lucky Wheel"
+        }
+      },
  {
         "type": "action",
         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
@@ -555,6 +568,10 @@ const proreg = [
 ];
 
 const follow = proreg
+const luckywheel = {
+  "type": "text",
+  "text": " ✅  วิธีการได้รับสิทธิ์ ✅\n 🔻 ทุกๆการเติมครบ 1,000 บาท \n 🔻 จะได้สิทธิ์หมุน 1 ครั้ง\n\n ✅  วิธีเช็คสิทธิ์การหมุน ✅\n🔻 log in ผ่านหน้าเว็ปไซต์\n🔻 https://slotcat777.com\n🔻 จะขึ้นสิทธิ์จำนวนการหมุน\n🔻 กด เพื่อทำการหมุน"
+}
 
 
 
