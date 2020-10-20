@@ -532,7 +532,7 @@ const proreg = [
           {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/10per.jpg?se=11",
                 imageBackgroundColor: "#030600",
-                title: "\t\t💯 ทุกยอดฝากรับ 10 % 💯",
+                title: "\t\t🕥 ทุกยอดฝากรับ 10 % 🕙",
                 text: "✌️ รับไปเลยเต็มๆ 10 %\n✌️ สูงสุด 1,000 บาท \n✌️ ทำเทริ์นเพียง 3 เท่า",
                
                 actions: [
