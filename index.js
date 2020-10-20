@@ -77,8 +77,11 @@ else if (event.message.text === "ประกาศ")
   {
     return client.replyMessage(event.replyToken, luckywheel);
   }
-
-else if (event.message.text.indexOf("โปร") !== -1)
+  else if (event.message.text.indexOf("50") !== -1||event.message.text.indexOf("รับโปร 50") !== -1)        
+  {
+    return client.replyMessage(event.replyToken,pro50);
+  }
+else if (event.message.text.indexOf("โปรโมชั่น") !== -1)
   {
     return client.replyMessage(event.replyToken, proreg);
   }
@@ -119,6 +122,13 @@ else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.ind
   {
     return client.replyMessage(event.replyToken,entrance);
   }
+  else if (event.message.text.indexOf("ลืมรหั") !== -1)        
+  {
+    return client.replyMessage(event.replyToken,forget);
+  }
+   
+
+
 else
   {
     return client.replyMessage(event.replyToken, test);
@@ -216,6 +226,24 @@ const quickreply =
     ]
   }
 };
+const forget = [
+
+ {  "type":"text",
+                "text":"💋 ลืมรหัสผ่านใช่รึป่าว? 💋\n\n 👩🏽‍💻 ลองทักหาแอดมินดูสิ 👩🏽‍💻 \n\n👇 ที่ลิงค์นี้เลย 👇 \n\n https://lin.ee/4zt83jX"
+
+         },quickreply
+
+]
+
+const pro50 = [
+
+ {  "type":"text",
+                "text":"🤑 รับโปร 50 ทักหาแอดมินได้เลยจ้า 🤑\n\n👇 ที่ลิงค์นี้เลย 👇 \n\n https://lin.ee/4zt83jX"
+
+         },quickreply
+
+]
+
 
 const wait = [
 
