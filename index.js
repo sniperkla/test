@@ -86,7 +86,7 @@ else if (event.message.text.indexOf("โปรโมชั่น") !== -1)
     return client.replyMessage(event.replyToken, proreg);
   }
 
-else if (event.message.text.indexOf("ฝากขั้นต่ำ") !== -1||event.message.text.indexOf("ถอนขั้น") !== -1)
+else if (event.message.text.indexOf("ฝา") !== -1||event.message.text.indexOf("ถอนขั้น") !== -1)
   {
     return client.replyMessage(event.replyToken, deposit);
   }
@@ -99,6 +99,11 @@ else if (event.message.text.indexOf("ธนาคาร") !== -1||event.message.
  else if (event.message.text.indexOf("แอด") !== -1||event.message.text.indexOf("สอบถาม") !== -1)       
   {
     return client.replyMessage(event.replyToken, chatwith);
+
+  }
+  else if (event.message.text.indexOf("สมัคร") !== -1||event.message.text.indexOf("สมัก") !== -1)       
+  {
+    return client.replyMessage(event.replyToken, register);
 
   }
  else if (event.message.text.indexOf("เกมส์แนะนำ") !== -1)
@@ -226,6 +231,18 @@ const quickreply =
     ]
   }
 };
+
+
+const register = [
+
+ {  "type":"text",
+                "text":"💋 สมัครสมาชิกผ่านลิงค์นี้ได้เลยจ้า 💋\n\n 👩🏽‍💻 https://slotcat777.com/?openExternalBrowser=1 "
+
+         },quickreply
+
+]
+
+
 const forget = [
 
  {  "type":"text",
