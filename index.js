@@ -519,7 +519,7 @@ const proreg = [
             imageSize: "contain",
             columns: [
  {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/lucky.jpg?se=11",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/lucky2.jpg?se=11",
                 imageBackgroundColor: "#030600",
                 title: "\t\t☸️ Luky Wheel กงล้อพารวย ☸️",
                 text: "🔥 เติมเงินครบทุกๆ 1,000\n🔥 รับสิทธิ์หมุน 1 ครั้ง \n🔥 ไม่จำกัดการหมุน",
