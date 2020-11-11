@@ -1,0 +1,205 @@
+curl -v -X POST https://api.line.me/v2/bot/message/broadcast \
+-H 'Authorization: Bearer {KMwtbILJD6yZArCEB658yBPvU+wwfEGPh3KwvEswls31G+L6nIalND9+aNKXHxyAWDlyiBbz9Jke4i4wn7AKTC4054g9coSDIKlKDMR5bu5C+IRtnG1Zrmp2kqc5OoWcTbYthCN9HrYLK3ZjKFrh3gdB04t89/1O/w1cDnyilFU=}' \
+-H 'Content-Type: application/json' \
+-d '{
+   "messages":[
+  {
+   "type": "template",
+    "altText": "🔥 วันเดียวเท่านั้น! บิ๊กเซอร์ไพรส์ 11.11 🔥",
+    "template": {
+      "columns": [
+
+
+{
+          "action": {
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            "type": "uri"
+           
+          },
+          "imageUrl": "https://niki999.com/slotcat777/lucky2.jpg"
+        },
+
+ {
+          "action": {
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            "type": "uri"
+           
+          },
+          "imageUrl": "https://niki999.com/slotcat777/10per.jpg"
+        },
+{
+          "action": {
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            "type": "uri"
+          
+          },
+          "imageUrl": "https://www.niki999.com/slotcat777/hotjoker.jpg"
+        },
+
+
+              {
+          "action": {
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            "type": "uri"
+           
+          },
+          "imageUrl": "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif"
+        },
+  {
+          "imageUrl": "https://niki999.com/slotcat777/4.jpg",
+          "action": {
+           
+            "type": "uri",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
+          }
+        },
+
+
+        {
+          "imageUrl": "https://niki999.com/slotcat777/2.jpg",
+          "action": {
+            "type": "uri",
+           
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
+          }
+        },
+    
+        {
+          "imageUrl": "https://niki999.com/slotcat777/3.jpg",
+          "action": {
+           
+            "type": "uri",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
+          }
+        },
+        {
+          "action": {
+            
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            "type": "uri"
+          },
+          "imageUrl": "https://niki999.com/slotcat777/8.jpg"
+        },
+        {
+          "action": {
+            "uri": "https://slotcat777.com/?openExternalBrowser=1",
+            
+            "type": "uri"
+          },
+          "imageUrl": "https://niki999.com/slotcat777/5.jpg"
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/6.jpg",
+          "action": {
+            "type": "uri",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
+           
+          }
+        }
+      ],
+      "type": "image_carousel"
+    }
+
+   },
+    
+{
+  "type": "flex",
+  "altText": "🔥 วันเดียวเท่านั้น ! เซอร์ไพรส์ 11.11 🔥",
+  "contents": {
+ "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": " 🔥 วันนี้วันเดียวเท่านั้น !! 🔥",
+        "weight": "bold",
+        "size": "lg",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://niki999.com/slotcat777/11.jpg",
+    "gravity": "bottom",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "fit"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "🥳 ฉลองใหญ่ ๆ เบิ้ม ๆ 🥳",
+        "weight": "bold",
+        "size": "lg",
+        "align": "center",
+        "margin": "none",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "🎉 รับไปเลยเน้น ๆ 50% ทุกยอดฝาก",
+        "weight": "regular",
+        "margin": "xl",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "🎉 ฝากขั้นต่ำ 100 สูงสุด 1000",
+        "margin": "md",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "🎉 ทำเทิร์นเพียง 3 เท่า",
+        "margin": "md",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": " ⚠️ สงวนสิทธิ์รับโบนัสรวมตลอดทั้งกิจกรรมได้สูงสุด 500",
+        "weight": "bold",
+        "size": "md",
+        "align": "start",
+        "gravity": "top",
+        "margin": "lg",
+        "wrap": true,
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "🚫 สิ้นสุดกิจกรรม เวลา 23.59 🚫",
+        "align": "center",
+        "margin": "xxl",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รับโปรโมชั่น",
+          "uri": "https://slotcat777.com/?openExternalBrowser=1"
+        },
+        "color": "#2AD04BFF",
+        "margin": "md",
+        "style": "primary",
+        "gravity": "top"
+      }
+    ]
+  }
+}}
+   ] 
+       }'
