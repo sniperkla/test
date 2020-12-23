@@ -519,7 +519,20 @@ const proreg = [
             imageSize: "contain",
             columns: [
 
- 
+ {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?cd=12",
+                imageBackgroundColor: "#030600",
+                title: "\t\t✌️ ค่ายใหม่ PG SLOT ✌️",
+                text: "💎 ค่ายเกมส์ใหม่มาแรง\n💎 มีเกมให้เล่นมากมาย \n💎 แตกบ่อยแตกหนัก",
+               
+                actions: [
+                    {
+                    type: "message",
+                     label: "เข้าเล่น",
+                     uri: "https://slotcat777.com/login?openExternalBrowser=1"
+          }
+                ]
+              },
 
  {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/lucky2.jpg?se=11",
@@ -611,22 +624,8 @@ const proreg = [
                    uri: "https://slotcat777.com?openExternalBrowser=1"
           }
                 ]
-              },
-                 {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/6.jpg?xx=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🍲 มื้อเที่ยงบนดวงจันทร์ 🍲",
-                text: "🥢 ฝากตามช่วงเวลา \n🥢 รับโบนัสไปเลย\n🥢 เทริ์น 3 เท่า",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
-          }
-                ]
               }
+                 
      
             ]
           }
