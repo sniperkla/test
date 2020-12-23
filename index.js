@@ -522,15 +522,15 @@ const proreg = [
               {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
                 imageBackgroundColor: "#030600",
-                title: "\t\t✌️ ค่ายใหม่ PG SLOT ✌️",
-                text: "🔥 เกมส์เยอะ \n🔥 เล่นง่าย\n🔥 แตกรัวๆ",
+                title: "\t\t🎁 ค่ายใหม่ PG SLOT 🎁",
+                text: "✌️ ภาพสวย มาแรง \n✌️ เล่นง่าย,เกมเยอะ\n✌️ แตกบ่อย แตกหนัก",
                
                 actions: [
                  
                     {
                     type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+                    label: "เข้าเล่น",
+                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
           }
                 ]
               },
