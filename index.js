@@ -610,7 +610,7 @@ const proreg = [
                 ]
               },
                  {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/6.jpg?xx=4c",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🍲 มื้อเที่ยงบนดวงจันทร์ 🍲",
                 text: "🥢 ฝากตามช่วงเวลา \n🥢 รับโบนัสไปเลย\n🥢 เทริ์น 3 เท่า",
