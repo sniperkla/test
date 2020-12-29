@@ -658,8 +658,8 @@ const proreg2 = [
                  
                     {
                     type: "uri",
-                    label: "เข้าเล่น",
-                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
+                    label: "รับโปร",
+                   uri: "https://www.slotcat777.com/%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99?openExternalBrowser=1"
           }
                 ]
               },
