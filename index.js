@@ -652,7 +652,7 @@ const proreg2 = [
                 thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🎉 ต้อนรับหวยออก 🎉",
-                text: "✌🔥 ทุกยอดฝาก \n✌🔥 รับไปเลย 20%\n✌🔥 เฉพาะวันนี้เท่านั้น",
+                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันที่30เท่านั้น",
                
                 actions: [
                  
