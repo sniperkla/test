@@ -83,7 +83,7 @@ else if (event.message.text === "ประกาศ")
   }
 else if (event.message.text.indexOf("โปรโมชั่น") !== -1)
   {
-    return client.replyMessage(event.replyToken, proreg2);
+    return client.replyMessage(event.replyToken, proreg);
   }
 
 else if (event.message.text.indexOf("ฝา") !== -1||event.message.text.indexOf("ถอนขั้น") !== -1)
