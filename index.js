@@ -83,7 +83,7 @@ else if (event.message.text === "ประกาศ")
   }
 else if (event.message.text.indexOf("โปรโมชั่น") !== -1)
   {
-    return client.replyMessage(event.replyToken, proreg);
+    return client.replyMessage(event.replyToken, proreg2);
   }
 
 else if (event.message.text.indexOf("ฝา") !== -1||event.message.text.indexOf("ถอนขั้น") !== -1)
@@ -652,7 +652,7 @@ const proreg2 = [
                 thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🎉 ต้อนรับหวยออก 🎉",
-                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันที่30เท่านั้น",
+                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันนี้เท่านั้น",
                
                 actions: [
                  
@@ -780,7 +780,7 @@ const proreg2 = [
 
 
 
-const follow = proreg
+const follow = proreg2
 const luckywheel = [{
   "type": "text",
   "text": "    💋  รายละเอียดกิจกรรม 💋\n\n🎁   ทุกๆการเติม ครบ 1,000 บาท \n🎁   รับไปเลย สิทธิ์หมุนฟรี 1 ครั้ง\n🎁   ทำยอด 3 เท่าถอนได้ทันที\n🎁   เติมเข้ามาเยอะยิ่งมีโอกาสได้เยอะนะเมี๊ยวว \n\n🚨 ไม่จำกัดจำนวนครั้ง 🚨\n---------------------------\n\n ✅  วิธีการได้รับสิทธิ์ ✅\n 🔻 ทุกๆการเติมครบ 1,000 บาท \n 🔻 จะได้สิทธิ์หมุน 1 ครั้ง\n\n ✅  วิธีเช็คสิทธิ์การหมุน ✅\n🔻 log in ผ่านหน้าเว็ปไซต์\n🔻 https://slotcat777.com?openExternalBrowser=1\n🔻 จะขึ้นสิทธิ์จำนวนการหมุน\n🔻 กด เพื่อทำการหมุน"
