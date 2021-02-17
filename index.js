@@ -131,12 +131,15 @@ else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.ind
   {
     return client.replyMessage(event.replyToken,forget);
   }
-   
-
+   else if (event.message.text.indexOf("ไม่ได้") !== -1)        
+  {
+    return client.replyMessage(event.replyToken,problem);
+  }
+  
 
 else
   {
-    return client.replyMessage(event.replyToken, test);
+    return client.replyMessage(event.replyToken, problem);
   }
 
   
@@ -256,6 +259,14 @@ const pro50 = [
 
  {  "type":"text",
                 "text":"🤑 รับโปร 50/50 🤑\n\n 🔥 รายละเอียด 🔥\n\n ✅ ไม่ต้องทำเทิร์น\n ✅ เล่นได้ทุกค่าย\n ✅ ถอนขั้นต่ำ 300  \n\n 👇 สนใจทักแอดมินที่ลิงค์นี้เลย 👇 \n\n https://lin.ee/4zt83jX"
+
+         },quickreply
+
+]
+const problem = [
+
+ {  "type":"text",
+                "text":" 🤷 คุณกำลังมีปัญหาอยู่ใช่รึป่าวค่ะ? ลองติดต่อแอดมินที่ลิ้งด้านล่างสิค่ะ จิ้มเลย👇👇  \n\n https://lin.ee/4zt83jX"
 
          },quickreply
 
