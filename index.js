@@ -81,7 +81,7 @@ else if (event.message.text === "ประกาศ")
   {
     return client.replyMessage(event.replyToken,pro50);
   }
-else if (event.message.text.indexOf("โปรโมชั่น") !== -1)
+else if (event.message.text.indexOf("โปรโมชั่น") !== -1||event.message.text.indexOf("โปร") !== -1)
   {
     return client.replyMessage(event.replyToken, proreg);
   }
@@ -135,11 +135,15 @@ else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.ind
   {
     return client.replyMessage(event.replyToken,problem);
   }
+    else if (event.message.text.indexOf("ทรู") !== -1)        
+  {
+    return client.replyMessage(event.replyToken,truewallet);
+  }
   
 
 else
   {
-    return client.replyMessage(event.replyToken, problem);
+    return client.replyMessage(event.replyToken, test);
   }
 
   
@@ -234,7 +238,14 @@ const quickreply =
     ]
   }
 };
+const truewallet = [
 
+ {  "type":"text",
+                "text":"🏧 โอนผ่าน Truewallet ได้จากบัญชีด้านล่างได้เลยค่ะ 🏧\n\n ✅ --- ทรูวอลเล็ต ---\nดวง ทนสระน้อย : 0636647747\nพนม โปร่งจันทึก : 0642476493\n(เบอร์ที่โอนเข้ามาต้องตรงกับเลขที่สมัครมาเท่านั้น)"
+
+         },quickreply
+
+]
 
 const register = [
 
@@ -266,7 +277,7 @@ const pro50 = [
 const problem = [
 
  {  "type":"text",
-                "text":" 🤷 คุณกำลังมีปัญหาอยู่ใช่รึป่าวค่ะ? ลองติดต่อแอดมินที่ลิ้งด้านล่างสิค่ะ จิ้มเลย👇👇  \n\n https://lin.ee/4zt83jX"
+                "text":" 😢 คุณกำลังมีปัญหาอยู่ใช่รึป่าวค่ะ? ลองติดต่อแอดมินที่ลิ้งด้านล่างสิค่ะ จิ้มเลย👇👇  \n\n 👉🏻 https://lin.ee/4zt83jX"
 
          },quickreply
 
