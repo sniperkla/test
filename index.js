@@ -297,7 +297,7 @@ const gamereg =
    [
      {
                 "type":"text",
-                "text":"      💸 5 เกมส์ทำเงิน ที่ดีที่สุด 💸 \n\n 👑 จากค่าย Nikigames และ Joker Gaming คัดมาให้เน้นๆ \n\n📱 จะมีเกมส์ไหนบ้าง เช็คได้จากรูปได้เลยเมี๊่ยวว 😽"
+                "text":"      💸 5 เกมส์ทำเงิน ที่ดีที่สุด 💸 \n\n 👑 จากค่ายHotgraph, Nikigames และ Joker Gaming คัดมาให้เน้นๆ \n\n📱 จะมีเกมส์ไหนบ้าง เช็คได้จากรูปได้เลยเมี๊่ยวว 😽"
       },
 
     {
@@ -306,7 +306,7 @@ const gamereg =
     "template": {
       "columns": [
       {
-          "imageUrl": "https://niki999.com/slotcat777/hotgraph.jpg",
+          "imageUrl": "https://niki999.com/slotcat777/hotgraph.png",
           "action": {
            
             "type": "uri",
@@ -556,6 +556,23 @@ const proreg = [
             imageAspectRatio: "square",
             imageSize: "contain",
             columns: [
+
+
+              {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/hotgraph.png?fe=4c",
+                imageBackgroundColor: "#030600",
+                title: "\t\t📈 เกมส์สุดฮิต Hotgraph 📈",
+                text: "✅ มาใหม่เล่นเพลิน \n✅ เล่นง่าย \n✅ แตกบ่อย จ่ายจริง",
+               
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "เข้าเล่น",
+                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
+          }
+                ]
+              },
 
               {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
