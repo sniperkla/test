@@ -388,6 +388,36 @@ const promotion = [
             imageSize: "contain",
             columns: [
               {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/hotgraph.jpg",
+                imageBackgroundColor: "#030600",
+                title: "\t\t💞 ค่ายเกมส์ที่ไม่ควรพลาด 💞",
+                text: "✅ ภาพสวย เล่นเพลิน\n✅ แตกง่ายโบนัสเพียบ 🤩\n✅ จ่ายจริง",
+               
+                actions: [
+                  {
+                    type: "uri",
+                    label: " สมัครสมาชิก ",
+                   uri: "https://slotcat777.com/?openExternalBrowser=1"
+                  },
+                    {
+                    type: "uri",
+                    label: " ติดต่อแอดมิน ",
+                   uri: "https://lin.ee/9oLGCNP"
+          }
+                ]
+              },
+          
+
+
+{
+          type: "template",
+          altText: "🔥 โปรโมชั่นมาแรงส์ 🔥",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+              {
                 thumbnailImageUrl: "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif",
                 imageBackgroundColor: "#030600",
                 title: "\t\t💞 ค่ายเกมส์ที่ไม่ควรพลาด 💞",
