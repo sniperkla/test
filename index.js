@@ -305,6 +305,15 @@ const gamereg =
     "altText": "🔥 5 เกมส์ทำเงิน ที่ดีที่สุดจากค่าย Nikigames",
     "template": {
       "columns": [
+      {
+          "imageUrl": "https://niki999.com/slotcat777/hotgraph.jpg",
+          "action": {
+           
+            "type": "uri",
+            "uri": "https://slotcat777.com/?openExternalBrowser=1"
+          }
+        },
+
  {
           "imageUrl": "https://niki999.com/slotcat777/pg1.jpg",
           "action": {
