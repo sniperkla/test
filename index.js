@@ -560,7 +560,7 @@ const proreg = [
                 thumbnailImageUrl: "https://niki999.com/slotcat777/firstday.jpg?fe=4c",
                 imageBackgroundColor: "#030600",
                 title: "\t\t⛅ ฝากแรกของวันรับไปเลย ⛅",
-                text: "🔥 ฝากแรกของวัน \n🔥 รับเน้นๆ 20 % \n🔥 ฝากขั้นต่ำ 100 สูงสุด 500",
+                text: "🔥 ฝากแรกของวัน \n🔥 รับเน้นๆ 20 % \n🔥 ฝากขั้นต่ำ 100 สูงสุด 5000",
                
                 actions: [
                  
