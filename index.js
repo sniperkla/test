@@ -559,8 +559,8 @@ const proreg = [
              {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/firstday.jpg?fe=4c",
                 imageBackgroundColor: "#030600",
-                title: "\t\t📈 ฝากแรกของวันรับไปเลย 📈",
-                text: "✅ ฝากแรกของวัน \n✅ รับเน้นๆ 20 % \n✅ ฝากขั้นต่ำ 100 สูงสุด 500",
+                title: "\t\t⛅ ฝากแรกของวันรับไปเลย ⛅",
+                text: "🔥 ฝากแรกของวัน \n🔥 รับเน้นๆ 20 % \n🔥 ฝากขั้นต่ำ 100 สูงสุด 500",
                
                 actions: [
                  
@@ -571,10 +571,23 @@ const proreg = [
           }
                 ]
               },
+  {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
+                imageBackgroundColor: "#030600",
+                title: "\t\t🎉 ต้อนรับหวยออก 🎉",
+                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันนี้เท่านั้น",
+               
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รับโปร",
+                   uri: "https://www.slotcat777.com/login?openExternalBrowser=1"
+          }
+                ]
+              },
 
-
-
-              {
+         /*     {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/hotgraph.png?fe=4c",
                 imageBackgroundColor: "#030600",
                 title: "\t\t📈 เกมส์สุดฮิต Hotgraph 📈",
@@ -604,7 +617,7 @@ const proreg = [
                    uri: "https://slotcat777.com/login?openExternalBrowser=1"
           }
                 ]
-              },
+              },*/
  {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/lucky2.jpg?se=11",
                 imageBackgroundColor: "#030600",
@@ -647,7 +660,6 @@ const proreg = [
           }
                 ]
               },
-
 
 
 
