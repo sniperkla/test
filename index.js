@@ -556,6 +556,22 @@ const proreg = [
             imageAspectRatio: "square",
             imageSize: "contain",
             columns: [
+             {
+                thumbnailImageUrl: "https://niki999.com/slotcat777/firstday.jpg?fe=4c",
+                imageBackgroundColor: "#030600",
+                title: "\t\t📈 ฝากแรกของวันรับไปเลย 📈",
+                text: "✅ ฝากแรกของวัน \n✅ รับเน้นๆ 20 % \n✅ ฝากขั้นต่ำ 100 สูงสุด 500",
+               
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "เข้าเล่น",
+                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
+          }
+                ]
+              },
+
 
 
               {
