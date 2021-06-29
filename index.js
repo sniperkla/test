@@ -571,7 +571,7 @@ const proreg = [
           }
                 ]
               },
-  {
+ /* {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🎉 ต้อนรับหวยออก 🎉",
@@ -585,7 +585,7 @@ const proreg = [
                    uri: "https://www.slotcat777.com/login?openExternalBrowser=1"
           }
                 ]
-              },
+              },*/
 
          /*     {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/hotgraph.png?fe=4c",
@@ -725,7 +725,7 @@ const proreg2 = [
             imageSize: "contain",
             columns: [
 
-   {
+/*   {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🎉 ต้อนรับหวยออก 🎉",
@@ -739,7 +739,7 @@ const proreg2 = [
                    uri: "https://www.slotcat777.com/login?openExternalBrowser=1"
           }
                 ]
-              },
+              },*/
 
               {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
