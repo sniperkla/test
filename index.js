@@ -785,7 +785,7 @@ const proreg2 = [
                 ]
               },
           {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/10per.jpg?se=11",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/10per.jpg?s=11",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🕥 ทุกยอดฝากรับ 10 % 🕙",
                 text: "✌️ รับไปเลยเต็มๆ 10 %\n✌️ สูงสุด 1,000 บาท \n✌️ ทำเทริ์นเพียง 3 เท่า",
@@ -803,7 +803,7 @@ const proreg2 = [
 
 
                {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/8.jpg?se=1s",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/8.jpg?e=1s",
                 imageBackgroundColor: "#030600",
                 title: "\t\t😿 ปลอบใจ กลับโลกมือเปล่า 😿",
                 text: "🤧  บิลเสีย 5 ครั้ง \n🤧 รับเงินคืนทันที\n🤧 สูงสุด 200 บาท เทริ์น 3 เท่า",
@@ -818,7 +818,7 @@ const proreg2 = [
                 ]
               },
                 {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/4.jpg?xx=4c",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/4.jpg?x=4c",
                 imageBackgroundColor: "#030600",
                 title: "\t\t🌒 ออกอวกาศครบ 7 วัน 🌒 ",
                 text: "🚀 ฝากอย่างน้อย 300 บาท \n🚀 ครบ 7 วัน \n🚀 รับไปเลย 300",
@@ -833,7 +833,7 @@ const proreg2 = [
                 ]
               },
               {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/5.jpg?xx=4c",
+                thumbnailImageUrl: "https://niki999.com/slotcat777/5.jpg?x=4c",
                 imageBackgroundColor: "#030600",
                 title: "\t\t✨ แนะนำเพื่อน ✨",
                 text: "🥳 ยิ่งชวนเพื่อนมาก\n🥳 ยิ่งมีโอกาสได้มาก \n🥳 ให้เยอะที่สุด 2%",
@@ -853,7 +853,6 @@ const proreg2 = [
           }
 },quickreply
 ];
-
 
 
 
