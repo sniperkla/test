@@ -306,7 +306,7 @@ const gamereg =
     "template": {
       "columns": [
       {
-          "imageUrl": "https://niki999.com/slotcat777/hotgraph.png",
+          "imageUrl": "https://niki999.com/slotcat777/hotgraph2.jpeg",
           "action": {
            
             "type": "uri",
