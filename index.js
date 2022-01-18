@@ -485,7 +485,7 @@ const data1 = [
                 ]
               },
               {
-                thumbnailImageUrl: "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093",
+                thumbnailImageUrl: "https://drive.google.com/uc?id=1VfpHcl4vHxFTYja9lEs9IUnJesy4zuIP",
                 imageBackgroundColor: "#030600",
                 title: "\t\t💎เรือนจำจังหวัดตรัง 💎",
                 text: "โทร 075582336\nที่อยู่: 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
