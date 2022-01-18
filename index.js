@@ -51,7 +51,7 @@ return client.replyMessage(event.replyToken, wait);
 return client.replyMessage(event.replyToken, item);
     }
 
-if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
+if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||event.message.text.indexOf("สิ่งของ") !== -1)
 {
 
    return client.replyMessage(event.replyToken, item);
@@ -62,6 +62,11 @@ if (event.message.text.indexOf("บริจาคเลือด") !== -1||even
 else if (event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("เสื้อผ้า") !== -1)
   {
     return client.replyMessage(event.replyToken, cloth);
+  }
+
+  else if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("เสื้อผ้า") !== -1)
+  {
+    return client.replyMessage(event.replyToken, blood);
   }
   
 else
@@ -110,6 +115,40 @@ const cloth = [
           }
 }
 ];
+
+
+
+const blood = [
+
+{
+          type: "template",
+          altText: "🔥 รายละเอียยด 🔥",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+             {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
+                imageBackgroundColor: "#030600",
+                title: "\t\t กาชาดจังหวัดตรัง ",
+                text: "โทรศัพท์ 075501095 \n ที่อยู่: 8,ถนนรื่นรมย์\nตำบลทับเที่ยง",
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          }
+                ]
+              }
+               
+     
+            ]
+          }
+}
+];
+
 
 
 const item = [
