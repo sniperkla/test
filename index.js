@@ -39,11 +39,11 @@ function handleEvent(event) {
 
  if (event.type === 'follow') {
 
-   client.replyMessage(event.replyToken,follow);
+   client.replyMessage(event.replyToken,items);
     
   } 
 if (event.message.type === 'image') {//กรณ๊อื่น ที่เป็น image ส่วนมากจะเป็น พวก แจ้งฝาก
-return client.replyMessage(event.replyToken, wait);
+return client.replyMessage(event.replyToken, items);
     }
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
@@ -59,17 +59,6 @@ if (event.message.text.indexOf("บริจาคเลือด") !== -1||even
     
   // Section เงื่อนไขการตอบกลับ
 
-else if (event.message.text === "ประกาศ")
-  {
-    return client.replyMessage(event.replyToken, info);
-  }
-  
-  
-
-else
-  {
-    return client.replyMessage(event.replyToken, problem);
-  }
 
   
 };
