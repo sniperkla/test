@@ -466,7 +466,7 @@ const data1 = [
                     {
                     type: "uri",
                     label: "รายละเอียดเพิ่มเติม",
-                   uri: "https://www.facebook.com/pg/trangrc/posts/?openExternalBrowser=1"
+                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
           }
                 ]
               },
@@ -499,16 +499,16 @@ const data1 = [
                 ]
               },
           {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/10pernew.jpg?se=11",
+                thumbnailImageUrl: "https://drive.google.com/uc?id=178JtgmU8J7eYEDv8IIXLwEsSAwHBPxGk",
                 imageBackgroundColor: "#030600",
-                title: "\t\t🕥 ทุกยอดฝากรับ 10 % 🕙",
-                text: "✌️ รับไปเลยเต็มๆ 10 %\n✌️ สูงสุด 1,000 บาท \n✌️ ยอด3เท่าเครดิต+โบนัส",
+                title: "\t\tสถานพินิจและคุ้มครองเด็กและเยาวชน",
+                text: "โทร 075571439\nที่อยู่: 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
                
                 actions: [
                    {
                     type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://www.facebook.com/pages/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%88%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99%20%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87/1371625002707841?openExternalBrowser=1"
           }
                 ]
               },
