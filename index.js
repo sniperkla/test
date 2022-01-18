@@ -99,7 +99,7 @@ const test = [{
   "contents": [
     "type": "bubble",
     "direction": "ltr",
-    
+
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
@@ -122,7 +122,9 @@ const test = [{
           "style": "primary"
         }
       ]
-    }, "type": "bubble",
+    },
+    {
+    "type": "bubble",
     "direction": "ltr",
     
     "hero": {
@@ -148,6 +150,7 @@ const test = [{
         }
       ]
     }
+  }
   
     ]
 } 
