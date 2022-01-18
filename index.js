@@ -104,8 +104,7 @@ const test = [
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
-    
-      "size": "small",
+      "size": "full"
     
     }
   
