@@ -48,13 +48,13 @@ return client.replyMessage(event.replyToken, wait);
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, data1);
+return client.replyMessage(event.replyToken, proreg2);
     }
 
 if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
-   return client.replyMessage(event.replyToken, data1);
+   return client.replyMessage(event.replyToken, proreg2);
 }
     
   // Section เงื่อนไขการตอบกลับ
@@ -616,143 +616,117 @@ const data1 = [
 const proreg2 = [
 
 {
-          type: "template",
-          altText: "🔥 โปรโมชั่นมาแรงส์ 🔥",
-          template: {
-            type: "carousel",
-            imageAspectRatio: "square",
-            imageSize: "contain",
-            columns: [
-
-/*   {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🎉 ต้อนรับหวยออก 🎉",
-                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันนี้เท่านั้น",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปร",
-                   uri: "https://www.slotcat777.com/login?openExternalBrowser=1"
-          },"color": "#12C908FF",
-         
-      }
-                ]
-              },*/
-
-              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🎁 ค่ายใหม่ PG SLOT 🎁",
-                text: "✌️ ภาพสวย มาแรง \n✌️ เล่นง่าย,เกมเยอะ\n✌️ แตกบ่อย แตกหนัก",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "เข้าเล่น",
-                   uri: "https://slotcat777.com/login?openExternalBrowser=1",color: "#12C908FF"
-          },
-                ]
-              },
- {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/lucky2.jpg?se=11",
-                imageBackgroundColor: "#030600",
-                title: "\t\t☸️ Luky Wheel กงล้อพารวย ☸️",
-                text: "🔥 เติมเงินครบทุกๆ 1,000\n🔥 รับสิทธิ์หมุน 1 ครั้ง \n🔥 ไม่จำกัดการหมุน",
-               
-                actions: [
-                    {
-                    type: "message",
-                    label : "ดูรายละเอียด",
-                    text : "Lucky Wheel"
-          }
-                ]
-              },
-              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/2.jpg?se=11",
-                imageBackgroundColor: "#030600",
-                title: "\t\t💎 ผู้เล่นใหม่ ฝาก 50 รับ 50 💎",
-                text: "✅ รับไปเลยทันทีอีก 50\n✅ ไม่ต้องทำยอดเทริ์น \n✅ เล่นได้ทุกค่าย",
-               
-                actions: [
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://lin.ee/4zt83jX"
-          }
-                ]
-              },
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
           {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/10per.jpg?s=11",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🕥 ทุกยอดฝากรับ 10 % 🕙",
-                text: "✌️ รับไปเลยเต็มๆ 10 %\n✌️ สูงสุด 1,000 บาท \n✌️ ทำเทริ์นเพียง 3 เท่า",
-               
-                actions: [
-                   {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+            "type": "text",
+            "text": "Header",
+            "align": "center",
+            "contents": []
           }
-                ]
-              },
-
-
-
-
-               {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/8.jpg?e=1s",
-                imageBackgroundColor: "#030600",
-                title: "\t\t😿 ปลอบใจ กลับโลกมือเปล่า 😿",
-                text: "🤧  บิลเสีย 5 ครั้ง \n🤧 รับเงินคืนทันที\n🤧 สูงสุด 200 บาท เทริ์น 3 เท่า",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "size": "full",
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Body",
+            "align": "center",
+            "contents": []
           }
-                ]
-              },
-                {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/4.jpg?x=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🌒 ออกอวกาศครบ 7 วัน 🌒 ",
-                text: "🚀 ฝากอย่างน้อย 300 บาท \n🚀 ครบ 7 วัน \n🚀 รับไปเลย 300",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Button",
+              "uri": "https://linecorp.com"
+            },
+            "color": "#12C908FF",
+            "height": "md",
+            "style": "primary",
+            "gravity": "center"
           }
-                ]
-              },
-              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/5.jpg?x=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t✨ แนะนำเพื่อน ✨",
-                text: "🥳 ยิ่งชวนเพื่อนมาก\n🥳 ยิ่งมีโอกาสได้มาก \n🥳 ให้เยอะที่สุด 2%",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปรโมชั่น",
-                   uri: "https://slotcat777.com?openExternalBrowser=1"
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Header",
+            "align": "center",
+            "contents": []
           }
-                ]
-              }
-               
-     
-            ]
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "size": "full",
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Body",
+            "align": "center",
+            "contents": []
           }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Button",
+              "uri": "https://linecorp.com"
+            },
+            "color": "#12C908FF",
+            "height": "md",
+            "style": "primary",
+            "gravity": "center"
+          }
+        ]
+      }
+    }
+  ]
 }
+         
 ];
 
 
