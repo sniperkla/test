@@ -94,7 +94,7 @@ else
 
 
 const test = [{
-  "type": "flex",
+  "type": "carousel",
   "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
   "contents": [
     "type": "bubble",
