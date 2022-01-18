@@ -91,30 +91,30 @@ else
 const cloth = [
 
 {
-  "type": "carousel",
-  "contents": [
+  type: "carousel",
+  contents: [
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
+      type: "bubble",
+      body: {
+        type: "box",
+        layout: "vertical",
+        contents: [
           {
-            "type": "text",
-            "text": "First bubble"
+            type: "text",
+            text: "First bubble"
           }
         ]
       }
     },
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
+      type: "bubble",
+      body: {
+        type: "box",
+        layout: "vertical",
+        contents: [
           {
-            "type": "text",
-            "text": "Second bubble"
+            type: "text",
+            text: "Second bubble"
           }
         ]
       }
