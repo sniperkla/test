@@ -106,7 +106,7 @@ const used = [
                 thumbnailImageUrl: "https://www.i-pic.info/i/UQm6111429.jpg",
                 imageBackgroundColor: "#030600",
                 title: "\t\t เรือนจำจังหวัดตรัง",
-                text: " โทรศัพท์ 075582336\nที่อยู่: 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+                text: " โทรศัพท์ 075582336\n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
                
                 actions: [
                     {
@@ -135,7 +135,7 @@ const cloth = [
                 thumbnailImageUrl: "https://www.i-pic.info/i/86hK111426.png",
                 imageBackgroundColor: "#030600",
                 title: "\t\t กาชาดจังหวัดตรัง ",
-                text: " โทรศัพท์ 075501095 \n ที่อยู่: 8,ถนนรื่นรมย์\n ตำบลทับเที่ยง",
+                text: " โทรศัพท์ 075501095 \n ที่อยู่ 8,ถนนรื่นรมย์\n ตำบลทับเที่ยง",
                 actions: [
                  
                     {
@@ -413,7 +413,7 @@ const item = [
                 thumbnailImageUrl: "https://www.i-pic.info/i/Kmq9111425.jpg",
                 imageBackgroundColor: "#030600",
                 title: "\t\t สถานบ้านพักคนชรา",
-                text: " โทรศัพท์ 075574679\nที่อยู่ 113 ม.2 ต.ปากแจ่ม อ.ห้วยยอด",
+                text: " โทรศัพท์ 075574679\n ที่อยู่ 113 ม.2 ต.ปากแจ่ม อ.ห้วยยอด",
                 actions: [
                     {
                     type: "uri",
@@ -426,7 +426,7 @@ const item = [
                 thumbnailImageUrl: "https://www.i-pic.info/i/UQm6111429.jpg",
                 imageBackgroundColor: "#030600",
                 title: "\t\t เรือนจำจังหวัดตรัง",
-                text: " โทรศัพท์ 075582336\nที่อยู่: 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+                text: " โทรศัพท์ 075582336\n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
                
                 actions: [
                     {
@@ -440,7 +440,7 @@ const item = [
                 thumbnailImageUrl: "https://www.i-pic.info/i/7BSx111428.jpg",
                 imageBackgroundColor: "#ffffff",
                 title: "\t\t สถานพินิจและคุ้มครองเด็กและเยาวชน",
-                text: " โทรศัพท์ 075571439\nที่อยู่: 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
+                text: " โทรศัพท์ 075571439\nที่อยู่ 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
                
                 actions: [
                    {
