@@ -94,58 +94,79 @@ else
 
 
 const test = [{
-  "type": "bubble",
-  "direction": "ltr",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "Header",
-        "align": "center",
-        "contents": []
-      }
-    ]
-  },
-  "hero": {
-    "type": "image",
-    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
-    "size": "full",
-    "aspectRatio": "1.51:1",
-    "aspectMode": "fit"
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "Body",
-        "align": "center",
-        "contents": []
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "horizontal",
-    "contents": [
-      {
-        "type": "button",
-        "action": {
-          "type": "uri",
-          "label": "Button",
-          "uri": "https://linecorp.com"
+    "type": "template",
+    "template": {
+      "columns": [
+        {
+          "imageUrl": "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif",
+          "action": {
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "type": "uri",
+            "label": "คลิ๊ก"
+          }
+        },
+        {
+          "action": {
+            "type": "uri",
+            "label": "คลิ๊ก",
+            "uri": "https://liff.line.me/1654867679-bear5yrO"
+          },
+          "imageUrl": "https://niki999.com/slotcat777/2.jpg"
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/8.jpg",
+          "action": {
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "label": "คลิ๊ก",
+            "type": "uri"
+          }
+        },
+        {
+          "action": {
+            "type": "uri",
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "label": "คลิ๊ก"
+          },
+          "imageUrl": "https://niki999.com/slotcat777/3.jpg"
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/4.jpg",
+          "action": {
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "label": "คลิ๊ก",
+            "type": "uri"
+          }
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/5.jpg",
+          "action": {
+            "type": "uri",
+            "label": "คลิ๊ก",
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
+          }
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/6.jpg",
+          "action": {
+            "type": "uri",
+            "label": "คลิ๊ก",
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
+          }
+        },
+        {
+          "imageUrl": "https://niki999.com/slotcat777/7.jpg",
+          "action": {
+            "label": "คลิ๊ก",
+            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
+            "type": "uri"
+          }
         }
-      }
-    ]
+      ],
+      "type": "image_carousel"
+    },
+    "altText": "อยากรวย เข้ามาลองเลย ที่ slotcat777"
   }
-}
-
-
-
-]
+  ]
 
 
 
