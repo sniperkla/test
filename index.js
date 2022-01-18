@@ -57,7 +57,7 @@ return client.replyMessage(event.replyToken, data1);
 if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
-   return client.replyMessage(event.replyToken, forlogin);
+   return client.replyMessage(event.replyToken, data1);
 }
     
   // Section เงื่อนไขการตอบกลับ
@@ -146,8 +146,7 @@ else
 const data1 = [
 
  {  "type":"text",
-                "text":"เว็บกาชาดจังหวัดตรัง   โทรศัพท์ 075 501 095 ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง 92000  https://www.facebook.com/pg/trangrc/posts/"
-
+                "text":"เว็บกาชาดจังหวัดตรัง   โทรศัพท์ 075 501 095 ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง 92000  https://www.facebook.com/pg/trangrc/posts/ "
 }
 ]
 
