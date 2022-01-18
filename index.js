@@ -96,7 +96,7 @@ else
 const test = [{
   "type": "flex",
   "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
-  "contents": [
+  "contents": {
     "type": "bubble",
     "direction": "ltr",
     
