@@ -51,11 +51,10 @@ return client.replyMessage(event.replyToken, wait);
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, test);
+return client.replyMessage(event.replyToken, data1);
     }
 
-
-if (event.message.text === 'เข้าสู่ระบบ')
+if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
    return client.replyMessage(event.replyToken, forlogin);
@@ -143,102 +142,13 @@ else
   
 };
 
-// payload section
 
-const quickreply = 
-{
-  "type": "text", 
-  "text": "สไลด์เพื่อดูรายการเพิ่มเติม",
-  "quickReply": { 
-    "items": [
-    {
-        "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "Lucky Wheel",
-          "text": "Lucky Wheel"
-        }
-      },
- {
-        "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "โปรโมชั่น",
-          "text": "โปรโมชั่น"
-        }
-      },
-    {
-        "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "เกมส์แนะนำ",
-          "text": "เกมส์แนะนำ"
-        }
-      },
-          {
-        "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "ติดต่อแอดมิน",
-          "text": "ติดต่อแอดมิน"
-        }
-      },
-{
-        "type": "action",
-         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "ประกาศ/ข่าวสาร",
-          "text": "ประกาศ"
-        }
-      },
-
-     
-      {
-        "type": "action",
-        "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "รับเครดิตฟรี",
-          "text": "เครดิตฟรี"
-        }
-      },
-
-
-
-   {
-        "type": "action",
-         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "ระบบ ฝาก-ถอน",
-          "text": "ฝากขั้นต่ำ - ถอนขั้นต่ำ"
-        }
-      },
-
-        {
-        "type": "action", 
-         "imageUrl": "https://niki999.com/slotcat777/catprofile.jpg",
-        "action": {
-          "type": "message",
-          "label": "บัญชีธนาคาร",
-          "text": "ธนาคาร"
-        }
-      },
-    ]
-  }
-};
-const truewallet = [
+const data1 = [
 
  {  "type":"text",
-                "text":"🏧 โอนผ่าน True Wallet ได้จากบัญชีด้านล่างได้เลยค่ะ\n\n--- ทรูวอลเล็ต ---\n ✅ กิติยา รักษาเพชร : 0642735126\n\n(เบอร์ที่โอนเข้ามาต้องตรงกับเลขที่สมัครมาเท่านั้น)"
+                "text":"เว็บกาชาดจังหวัดตรัง   โทรศัพท์ 075 501 095 ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง 92000  https://www.facebook.com/pg/trangrc/posts/"
 
-         },quickreply
-
+}
 ]
 
 const register = [
