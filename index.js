@@ -91,44 +91,18 @@ else
 };
 
 
-const test = [{
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "First bubble"
-          }
-        ]
-      }
-    },
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Second bubble"
-          }
-        ]
-      }
-    }
-  ]
-}
-
-  ]
-
 
 
 const used = [
 {
+          type: "template",
+          altText: "รายละเอียด",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+             {
                 thumbnailImageUrl: "https://www.i-pic.info/i/UQm6111429.jpg",
                 imageBackgroundColor: "#030600",
                 title: "\t\t เรือนจำจังหวัดตรัง",
@@ -142,13 +116,16 @@ const used = [
           }
                 ]
               }
-]
+              ]
+            }
+          }
+          ]
 
 const cloth = [
 
 {
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
@@ -177,7 +154,7 @@ const cloth = [
 const tooldoc = [
   {
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
@@ -232,7 +209,7 @@ const tooldoc = [
 const blood = [
 {
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
@@ -277,7 +254,7 @@ const food = [
 
 {
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
@@ -337,7 +314,7 @@ const food = [
 
 const money = [{
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
@@ -411,7 +388,7 @@ const item = [
 
 {
           type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
+          altText: "รายละเอียด",
           template: {
             type: "carousel",
             imageAspectRatio: "square",
