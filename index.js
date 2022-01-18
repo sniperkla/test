@@ -635,60 +635,7 @@ const proreg2 = [
       },
       "hero": {
         "type": "image",
-        "url": "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
-        "size": "full",
-        "aspectRatio": "1.51:1",
-        "aspectMode": "fit"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Body",
-            "align": "center",
-            "contents": []
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "Button",
-              "uri": "https://linecorp.com"
-            },
-            "color": "#12C908FF",
-            "height": "md",
-            "style": "primary",
-            "gravity": "center"
-          }
-        ]
-      }
-    },
-    {
-      "type": "bubble",
-      "direction": "ltr",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Header",
-            "align": "center",
-            "contents": []
-          }
-        ]
-      },
-      "hero": {
-        "type": "image",
-        "url": "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
         "size": "full",
         "aspectRatio": "1.51:1",
         "aspectMode": "fit"
