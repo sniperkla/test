@@ -460,7 +460,7 @@ const data1 = [
                 thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
                 imageBackgroundColor: "#030600",
                 title: "\t\t⛅ กาชาดจังหวัดตรัง  ⛅",
-                text: "โทรศัพท์ 075 501 095 ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง 92000 ",
+                text: "โทรศัพท์ 075 501 095 ที่อยู่ ",
                 actions: [
                  
                     {
