@@ -93,10 +93,10 @@ else
 };
 
 
-const test = [{
+const test = [
   "type": "carousel",
   "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
-  "contents": {
+  "contents": 
   {
     "type": "bubble",
     "direction": "ltr",
@@ -108,9 +108,9 @@ const test = [{
       "size": "small",
     
     }
-  }
-    }
+  
 } 
+
   ]
 
 
