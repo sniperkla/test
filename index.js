@@ -84,8 +84,7 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
   {
     return client.replyMessage(event.replyToken, used);
   }
-  
-  
+
 else
   {
     return client.replyMessage(event.replyToken, missun);
@@ -165,7 +164,6 @@ const used = [
           }
                 ]
               }
-
 ]
 
 const cloth = [
