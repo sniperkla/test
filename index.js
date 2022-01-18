@@ -48,13 +48,13 @@ return client.replyMessage(event.replyToken, wait);
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, proreg2);
+return client.replyMessage(event.replyToken, data1);
     }
 
 if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
-   return client.replyMessage(event.replyToken, proreg2);
+   return client.replyMessage(event.replyToken,proreg2);
 }
     
   // Section เงื่อนไขการตอบกลับ
