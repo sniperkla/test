@@ -93,8 +93,7 @@ else
 };
 
 
-const test = [
-{
+const test = [{
   "type": "carousel",
   "contents": [
     {
@@ -125,6 +124,7 @@ const test = [
     }
   ]
 }
+
   ]
 
 
