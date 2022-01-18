@@ -190,8 +190,9 @@ const food = [
                     type: "uri",
                     label : "รายละเอียดเพิ่มเติม",
                     uri : "https://www.facebook.com/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-331023247355513?openExternalBrowser=1"
+                
+                }
                 ]
-              }
               },
               
           {
