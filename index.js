@@ -97,18 +97,17 @@ const test = [
 {
   "type": "carousel",
   "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
-  "contents": 
-  {
+  "contents": {
     "type": "bubble",
     "direction": "ltr",
-
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
       "align": "center",
       "size": "full",
       "aspectRatio": "1:1"
-    },"footer": {
+    },
+    "footer": {
       "type": "box",
       "layout": "horizontal",
       "contents": [
@@ -124,9 +123,8 @@ const test = [
         }
       ]
     }
+  }
 } 
-}
-
   ]
 
 
