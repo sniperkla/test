@@ -12,13 +12,18 @@ const config = {
   channelSecret:  defaultSecret,
 };
 
+const LINE_HEADER = {
+  'Content-Type': 'application/json',
+   Authorization: `Bearer <dhctiPZmYo7ELo020Wtnt6g3lG9vFiwTnMXsuYX8mtjCO+/9+a3GUpL1HuQ8pNl4ivqJFgSVRLE2qn1sxdLtLUXTpmWMZHh/N/OQPvV5KA7dJRjl6CCwM6VyzaT6LVaVP5JpmZ2MmAT4fhwbfHugCQdB04t89/1O/w1cDnyilFU=>`
+};
+
 const client = new line.Client(config);
 
 
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Success');
 });
 
 app.post('/webhook', line.middleware(config), (req, res) => {
