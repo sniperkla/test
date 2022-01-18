@@ -69,6 +69,11 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
     return client.replyMessage(event.replyToken, blood);
   }
 
+ else if (event.message.text.indexOf("บริจาคอุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("เครื่องมือทางการแพทย์") !== -1||event.message.text.indexOf("อุปกรณ์ทางการแพทย์") !== -1)
+  {
+    return client.replyMessage(event.replyToken, tooldoc);
+  }
+
   else if (event.message.text.indexOf("บริจาคอาหาร") !== -1||event.message.text.indexOf("อาหาร") !== -1)
   {
     return client.replyMessage(event.replyToken, food);
@@ -123,8 +128,24 @@ const cloth = [
 
 
 
-const blood = [
 
+
+const tooldoc = [
+   {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=1GOCHvnwcpHBXx3p8kJCRLHRcSnv437N5",
+                imageBackgroundColor: "#030600",
+                title: "\t\t โรงพยาบาลตรัง",
+                text: "โทร 075201500\nที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
+                actions: [
+                    {
+                    type: "uri",
+                    label : "รายละเอียดเพิ่มเติม",
+                    uri : "https://www.facebook.com/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-331023247355513?openExternalBrowser=1"
+                
+                }
+                ]
+              },
+              
 {
           type: "template",
           altText: "🔥 รายละเอียยด 🔥",
@@ -133,6 +154,53 @@ const blood = [
             imageAspectRatio: "square",
             imageSize: "contain",
             columns: [
+             {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
+                imageBackgroundColor: "#030600",
+                title: "\t\t กาชาดจังหวัดตรัง ",
+                text: "โทรศัพท์ 075501095 \n ที่อยู่: 8,ถนนรื่นรมย์\nตำบลทับเที่ยง",
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          }
+                ]
+              }
+               
+     
+            ]
+          }
+}
+];
+
+
+
+const blood = [
+{
+          type: "template",
+          altText: "🔥 รายละเอียยด 🔥",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+   {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=1GOCHvnwcpHBXx3p8kJCRLHRcSnv437N5",
+                imageBackgroundColor: "#030600",
+                title: "\t\t โรงพยาบาลตรัง",
+                text: "โทร 075201500\nที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
+                actions: [
+                    {
+                    type: "uri",
+                    label : "รายละเอียดเพิ่มเติม",
+                    uri : "https://www.facebook.com/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-331023247355513?openExternalBrowser=1"
+                
+                }
+                ]
+              },
+              
              {
                 thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
                 imageBackgroundColor: "#030600",
@@ -282,7 +350,6 @@ const item = [
             ]
             }
                
-     
             ]
           }
 }
