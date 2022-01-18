@@ -96,8 +96,33 @@ else
 const test = [{
   "type": "flex",
   "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
-  "contents": {
+  "contents": [
     "type": "bubble",
+    "direction": "ltr",
+    
+    "hero": {
+      "type": "image",
+      "url": "https://niki999.com/slotcat777/20neww.jpeg",
+      "align": "center",
+      "size": "full",
+      "aspectRatio": "1:1"
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "ดูโปรโมชั่น",
+            "uri": "https://www.slotcat777.com/promotion?openExternalBrowser=1"
+          },
+          "color": "#47C80B",
+          "style": "primary"
+        }
+      ]
+    }, "type": "bubble",
     "direction": "ltr",
     
     "hero": {
@@ -124,7 +149,7 @@ const test = [{
       ]
     }
   
-    }
+    ]
 } 
   ]
 
