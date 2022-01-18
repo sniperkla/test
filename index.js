@@ -107,8 +107,22 @@ const test = [
       "align": "center",
       "size": "full",
       "aspectRatio": "1:1"
+    },"footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "ดูโปรโมชั่น",
+            "uri": "https://www.slotcat777.com/promotion?openExternalBrowser=1"
+          },
+          "color": "#47C80B",
+          "style": "primary"
+        }
+      ]
     }
-  
 } 
 
   ]
