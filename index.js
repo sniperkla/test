@@ -91,14 +91,6 @@ else
 };
 
 
-
-
-
-
-
-
-
-
 const cloth = [
 
 {
