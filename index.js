@@ -100,6 +100,42 @@ const test = [
   "contents": {
     "type": "bubble",
     "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "🔥 โปร 20 % มาแล้วจ้าา 🔥",
+          "size": "lg",
+          "align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "✨ รับกันแบบจุใจ ตามช่วงเวลา ✨",
+          "margin": "lg",
+          "size": "md",
+"align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "✅ ช่วงเวลา 18:00-22:00 น.",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "✅ รับกันรัวๆ ไปเลย ทุกยอดฝาก",
+          "margin": "sm"
+        },
+        {
+          "type": "text",
+          "text": "✅ ยิ่งฝากมาก มีโอกาสได้มากนะคะ  ",
+          "margin": "sm"
+        }
+      ]
+    },
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
