@@ -424,8 +424,10 @@ const item = [
 ];
 
 const missun = [
+{
 type : "text",
 text : "ฉันไม่เข้าใจในสิ่งที่คุณพูด"
+}
 ]
 // listen on port
 const port = process.env.PORT || 3000;
