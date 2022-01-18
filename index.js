@@ -48,13 +48,13 @@ return client.replyMessage(event.replyToken, wait);
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, items);
+return client.replyMessage(event.replyToken, item);
     }
 
 if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
-   return client.replyMessage(event.replyToken,items);
+   return client.replyMessage(event.replyToken, item);
 }
     
   // Section เงื่อนไขการตอบกลับ
@@ -185,7 +185,7 @@ const problem = [
 
 
 
-const items = [
+const item = [
 
 {
           type: "template",
@@ -239,7 +239,7 @@ const items = [
               },
           {
                 thumbnailImageUrl: "https://drive.google.com/uc?id=178JtgmU8J7eYEDv8IIXLwEsSAwHBPxGk",
-                imageBackgroundColor: "##ffffff",
+                imageBackgroundColor: "#ffffff",
                 title: "\t\t สถานพินิจและคุ้มครองเด็กและเยาวชน",
                 text: "โทร 075571439\nที่อยู่: 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
                
