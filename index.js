@@ -94,78 +94,134 @@ else
 
 
 const test = [{
-    "type": "template",
-    "template": {
-      "columns": [
+  "type": "carousel",
+  "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
+  "contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
         {
-          "imageUrl": "https://media.giphy.com/media/fvGynMKHiXYUauCe4C/giphy.gif",
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri",
-            "label": "คลิ๊ก"
-          }
+          "type": "text",
+          "text": "🔥 โปร 20 % มาแล้วจ้าา 🔥",
+          "size": "lg",
+          "align": "center",
+          "weight": "bold"
         },
         {
-          "action": {
-            "type": "uri",
-            "label": "คลิ๊ก",
-            "uri": "https://liff.line.me/1654867679-bear5yrO"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/2.jpg"
+          "type": "text",
+          "text": "✨ รับกันแบบจุใจ ตามช่วงเวลา ✨",
+          "margin": "lg",
+          "size": "md",
+"align": "center",
+          "weight": "bold"
         },
         {
-          "imageUrl": "https://niki999.com/slotcat777/8.jpg",
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "label": "คลิ๊ก",
-            "type": "uri"
-          }
+          "type": "text",
+          "text": "✅ ช่วงเวลา 18:00-22:00 น.",
+          "margin": "md"
         },
         {
-          "action": {
-            "type": "uri",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "label": "คลิ๊ก"
-          },
-          "imageUrl": "https://niki999.com/slotcat777/3.jpg"
+          "type": "text",
+          "text": "✅ รับกันรัวๆ ไปเลย ทุกยอดฝาก",
+          "margin": "sm"
         },
         {
-          "imageUrl": "https://niki999.com/slotcat777/4.jpg",
-          "action": {
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "label": "คลิ๊ก",
-            "type": "uri"
-          }
-        },
-        {
-          "imageUrl": "https://niki999.com/slotcat777/5.jpg",
-          "action": {
-            "type": "uri",
-            "label": "คลิ๊ก",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-        {
-          "imageUrl": "https://niki999.com/slotcat777/6.jpg",
-          "action": {
-            "type": "uri",
-            "label": "คลิ๊ก",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1"
-          }
-        },
-        {
-          "imageUrl": "https://niki999.com/slotcat777/7.jpg",
-          "action": {
-            "label": "คลิ๊ก",
-            "uri": "https://liff.line.me/1654867679-QKzB9nB1",
-            "type": "uri"
-          }
+          "type": "text",
+          "text": "✅ ยิ่งฝากมาก มีโอกาสได้มากนะคะ  ",
+          "margin": "sm"
         }
-      ],
-      "type": "image_carousel"
+      ]
     },
-    "altText": "อยากรวย เข้ามาลองเลย ที่ slotcat777"
+    "hero": {
+      "type": "image",
+      "url": "https://niki999.com/slotcat777/20neww.jpeg",
+      "align": "center",
+      "size": "full",
+      "aspectRatio": "1:1"
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "ดูโปรโมชั่น",
+            "uri": "https://www.slotcat777.com/promotion?openExternalBrowser=1"
+          },
+          "color": "#47C80B",
+          "style": "primary"
+        }
+      ]
+    }
+  },"contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "🔥 โปร 20 % มาแล้วจ้าา 🔥",
+          "size": "lg",
+          "align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "✨ รับกันแบบจุใจ ตามช่วงเวลา ✨",
+          "margin": "lg",
+          "size": "md",
+"align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "✅ ช่วงเวลา 18:00-22:00 น.",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "✅ รับกันรัวๆ ไปเลย ทุกยอดฝาก",
+          "margin": "sm"
+        },
+        {
+          "type": "text",
+          "text": "✅ ยิ่งฝากมาก มีโอกาสได้มากนะคะ  ",
+          "margin": "sm"
+        }
+      ]
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://niki999.com/slotcat777/20neww.jpeg",
+      "align": "center",
+      "size": "full",
+      "aspectRatio": "1:1"
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "ดูโปรโมชั่น",
+            "uri": "https://www.slotcat777.com/promotion?openExternalBrowser=1"
+          },
+          "color": "#47C80B",
+          "style": "primary"
+        }
+      ]
+    }
   }
+} 
   ]
 
 
