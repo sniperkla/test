@@ -91,266 +91,31 @@ else
 const cloth = [
 
 {
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "size": "micro",
-      "hero": {
-        "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip10.jpg",
-        "size": "full",
-        "aspectMode": "cover",
-        "aspectRatio": "320:213"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Brown Cafe",
-            "weight": "bold",
-            "size": "sm",
-            "wrap": true
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-              },
-              {
-                "type": "text",
-                "text": "4.0",
-                "size": "xs",
-                "color": "#8c8c8c",
-                "margin": "md",
-                "flex": 0
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "東京旅行",
-                    "wrap": true,
-                    "color": "#8c8c8c",
-                    "size": "xs",
-                    "flex": 5
-                  }
+          type: "template",
+          altText: "🔥 รายละเอียยด 🔥",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+             {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
+                imageBackgroundColor: "#030600",
+                title: "\t\t กาชาดจังหวัดตรัง ",
+                text: "โทรศัพท์ 075501095 \n ที่อยู่: 8,ถนนรื่นรมย์\nตำบลทับเที่ยง",
+                actions: [
+                 
+                    {
+                    type: "uri",
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          }
                 ]
               }
+               
+     
             ]
           }
-        ],
-        "spacing": "sm",
-        "paddingAll": "13px"
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "micro",
-      "hero": {
-        "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip11.jpg",
-        "size": "full",
-        "aspectMode": "cover",
-        "aspectRatio": "320:213"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Brow&Cony's Restaurant",
-            "weight": "bold",
-            "size": "sm",
-            "wrap": true
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-              },
-              {
-                "type": "text",
-                "text": "4.0",
-                "size": "sm",
-                "color": "#8c8c8c",
-                "margin": "md",
-                "flex": 0
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "東京旅行",
-                    "wrap": true,
-                    "color": "#8c8c8c",
-                    "size": "xs",
-                    "flex": 5
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "spacing": "sm",
-        "paddingAll": "13px"
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "micro",
-      "hero": {
-        "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip12.jpg",
-        "size": "full",
-        "aspectMode": "cover",
-        "aspectRatio": "320:213"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Tata",
-            "weight": "bold",
-            "size": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-              },
-              {
-                "type": "icon",
-                "size": "xs",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-              },
-              {
-                "type": "text",
-                "text": "4.0",
-                "size": "sm",
-                "color": "#8c8c8c",
-                "margin": "md",
-                "flex": 0
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "東京旅行",
-                    "wrap": true,
-                    "color": "#8c8c8c",
-                    "size": "xs",
-                    "flex": 5
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "spacing": "sm",
-        "paddingAll": "13px"
-      }
-    }
-  ]
 }
 ];
 const tooldoc = [
