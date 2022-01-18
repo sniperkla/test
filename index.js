@@ -232,7 +232,7 @@ const food = [
             columns: [
  
  {
-                thumbnailImageUrl: "https://drive.google.com/uc?id=1cK00lkHze5ubr-DGF69ZLmY45hE0Z8HA",
+                thumbnailImageUrl: "https://www.i-pic.info/i/Kmq9111425",
                 imageBackgroundColor: "#030600",
                 title: "\t\t สถานบ้านพักคนชรา",
                 text: "โทร 075574679\nที่อยู่ 113 ม.2 ต.ปากแจ่ม อ.ห้วยยอด",
@@ -380,7 +380,7 @@ const item = [
               },
  
  {
-                thumbnailImageUrl: "https://drive.google.com/uc?id=1cK00lkHze5ubr-DGF69ZLmY45hE0Z8HA",
+                thumbnailImageUrl: "https://www.i-pic.info/i/Kmq9111425",
                 imageBackgroundColor: "#030600",
                 title: "\t\t สถานบ้านพักคนชรา",
                 text: "โทร 075574679\nที่อยู่ 113 ม.2 ต.ปากแจ่ม อ.ห้วยยอด",
