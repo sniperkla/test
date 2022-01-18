@@ -58,11 +58,7 @@ if (event.message.text.indexOf("บริจาคเลือด") !== -1||even
 }
     
   // Section เงื่อนไขการตอบกลับ
-
-
-  
 };
-
 const items = [
 {
           type: "template",
@@ -116,7 +112,7 @@ const items = [
               },
           {
                 thumbnailImageUrl: "https://drive.google.com/uc?id=178JtgmU8J7eYEDv8IIXLwEsSAwHBPxGk",
-                imageBackgroundColor: "#ffffff",
+                imageBackgroundColor: "#030600",
                 title: "\t\t สถานพินิจและคุ้มครองเด็กและเยาวชน",
                 text: "โทร 075571439\nที่อยู่: 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
                
@@ -134,7 +130,6 @@ const items = [
           }
 }
 ];
-
 
 // listen on port
 const port = process.env.PORT || 3000;
