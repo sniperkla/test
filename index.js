@@ -3,19 +3,15 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 
-const defaultAccessToken = 'kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=';
-const defaultSecret =   'c87b61431b3ad1fb9b5fbcff5cc46241' //'c87b61431b3ad1fb9b5fbcff5cc46241';
+const defaultAccessToken = 'dhctiPZmYo7ELo020Wtnt6g3lG9vFiwTnMXsuYX8mtjCO+/9+a3GUpL1HuQ8pNl4ivqJFgSVRLE2qn1sxdLtLUXTpmWMZHh/N/OQPvV5KA7dJRjl6CCwM6VyzaT6LVaVP5JpmZ2MmAT4fhwbfHugCQdB04t89/1O/w1cDnyilFU=';
+const defaultSecret =   'bf9b2691d4c779bf53352a59910ad313'
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 const request = require("request-promise");
 const config = {
   channelAccessToken: defaultAccessToken,
   channelSecret:  defaultSecret,
 };
-const LINE_HEADER = {
-  'Content-Type': 'application/json',
-   Authorization: `Bearer <kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=>`
-};
-//kzSr4KLDyKblOMCOuFwXswlP/PJSYSumtOnc/FTZuveD6flLnFaROwxrjv891F5/1QjVmWDICfYMHD1tlxlkhM3vz6+XbdaTiyeT0+yPN04q0JmsjEdNhRfUZ/MAm/iRJcGx+6irqwGBac4lQGpK8wdB04t89/1O/w1cDnyilFU=
+
 const client = new line.Client(config);
 
 
@@ -34,15 +30,8 @@ app.post('/webhook', line.middleware(config), (req, res) => {
 });
 
 function handleEvent(event) {
-  var idline = event.source.userId; // ดึง user id ของผู้ใช้งาน
- 
- /* const options = {
-    url: 'https://niki999.com/member/getLine/'+idline,
-    method: 'POST',
-    headers: {
-        'Accept': 'application/json',
-        'Accept-Charset': 'utf-8',
-    }*/
+  var idline = event.source.userId;
+
 
    console.log(quickreply);
 
