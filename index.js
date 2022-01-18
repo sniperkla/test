@@ -35,10 +35,7 @@ app.post('/webhook', line.middleware(config), (req, res) => {
 });
 
 function handleEvent(event) {
-  var idline = event.source.userId;
 
-
-   console.log(quickreply);
 
  if (event.type === 'follow') {
 
@@ -389,8 +386,7 @@ const promotion = [
    {
    "type": "text",
   "text": "          😻 สวัสดีนะเมี๊ยววว 😻\n\n 🤖 ฉันเป็นโปรแกรมตอบอัตโนมัติ 🤖 \n\n😿 ฉันไม่เข้าใจในสิ่งที่คุณถาม 😿\n\n 👉 คุยกับแอดมินจิ้มตรงนี้เลยจ้า\n  https://lin.ee/4zt83jX"
-   },
-    quickreply
+   }
    ];
 
 const regis = 
