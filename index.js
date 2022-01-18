@@ -37,18 +37,16 @@ app.post('/webhook', line.middleware(config), (req, res) => {
 function handleEvent(event) {
 
 
- if (event.type === 'follow') {
+ if (event.type === 'follow')
+ {
 
    client.replyMessage(event.replyToken,follow);
     
   } 
-if (event.message.type === 'image') {//กรณ๊อื่น ที่เป็น image ส่วนมากจะเป็น พวก แจ้งฝาก
-return client.replyMessage(event.replyToken, wait);
-    }
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, item);
+return client.replyMessage(event.replyToken, missun);
     }
 
 if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||event.message.text.indexOf("สิ่งของ") !== -1)
@@ -85,11 +83,10 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
   
 else
   {
-    return client.replyMessage(event.replyToken, item);
+    return client.replyMessage(event.replyToken, missun);
   }
   
 };
-
 
 const cloth = [
 
@@ -426,7 +423,10 @@ const item = [
 }
 ];
 
-
+const missun = [
+type : "text",
+text : "ฉันไม่เข้าใจในสิ่งที่คุณพูด"
+]
 // listen on port
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
