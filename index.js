@@ -91,31 +91,35 @@ else
 const cloth = [
 
 {
-          type: "template",
-          altText: "🔥 รายละเอียยด 🔥",
-          template: {
-            type: "carousel",
-            imageAspectRatio: "square",
-            imageSize: "contain",
-            columns: [
-             {
-                thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
-                imageBackgroundColor: "#030600",
-                title: "\t\t กาชาดจังหวัดตรัง ",
-                text: "โทรศัพท์ 075501095 \n ที่อยู่: 8,ถนนรื่นรมย์\nตำบลทับเที่ยง",
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รายละเอียดเพิ่มเติม",
-                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "First bubble"
           }
-                ]
-              }
-               
-     
-            ]
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Second bubble"
           }
+        ]
+      }
+    }
+  ]
 }
 ];
 const tooldoc = [
