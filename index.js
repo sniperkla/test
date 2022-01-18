@@ -64,9 +64,14 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
     return client.replyMessage(event.replyToken, cloth);
   }
 
-  else if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("เสื้อผ้า") !== -1)
+  else if (event.message.text.indexOf("บริจาคเลือด") !== -1)
   {
     return client.replyMessage(event.replyToken, blood);
+  }
+
+  else if (event.message.text.indexOf("บริจาคอาหาร") !== -1||event.message.text.indexOf("อาหาร") !== -1)
+  {
+    return client.replyMessage(event.replyToken, food);
   }
   
 else
@@ -149,7 +154,64 @@ const blood = [
 }
 ];
 
+const food = [
 
+{
+          type: "template",
+          altText: "🔥 รายละเอียยด 🔥",
+          template: {
+            type: "carousel",
+            imageAspectRatio: "square",
+            imageSize: "contain",
+            columns: [
+ 
+ {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=1cK00lkHze5ubr-DGF69ZLmY45hE0Z8HA",
+                imageBackgroundColor: "#030600",
+                title: "\t\t สถานบ้านพักคนชรา",
+                text: "โทร 075574679\nที่อยู่ 113 ม.2 ต.ปากแจ่ม อ.ห้วยยอด",
+                actions: [
+                    {
+                    type: "uri",
+                    label : "รายละเอียดเพิ่มเติม",
+                    uri : "https://www.facebook.com/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%84%E0%B8%99%E0%B8%8A%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-%E0%B8%AD%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%A2%E0%B8%AD%E0%B8%94-%E0%B8%88%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-107904924436991?openExternalBrowser=1"
+                  }
+                ]
+              },
+
+
+               {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=1GOCHvnwcpHBXx3p8kJCRLHRcSnv437N5",
+                imageBackgroundColor: "#030600",
+                title: "\t\t โรงพยาบาลตรัง",
+                text: "โทร 075201500\nที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
+                actions: [
+                    {
+                    type: "uri",
+                    label : "รายละเอียดเพิ่มเติม",
+                    uri : "https://www.facebook.com/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-331023247355513?openExternalBrowser=1"
+                ]
+              },
+              
+          {
+                thumbnailImageUrl: "https://drive.google.com/uc?id=178JtgmU8J7eYEDv8IIXLwEsSAwHBPxGk",
+                imageBackgroundColor: "#ffffff",
+                title: "\t\t สถานพินิจและคุ้มครองเด็กและเยาวชน",
+                text: "โทร 075571439\nที่อยู่: 116 ม.3 ต.ทุ่งค่าย อ.ย่านตาขาว",
+               
+                actions: [
+                   {
+                    type: "uri",
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://shorturl.at/hxD17?openExternalBrowser=1"
+              }
+            ]
+            }
+               
+            ]
+          }
+}
+];
 
 const item = [
 
