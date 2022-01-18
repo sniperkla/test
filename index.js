@@ -635,7 +635,7 @@ const proreg2 = [
       },
       "hero": {
         "type": "image",
-        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "url": "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
         "size": "full",
         "aspectRatio": "1.51:1",
         "aspectMode": "fit"
@@ -688,7 +688,7 @@ const proreg2 = [
       },
       "hero": {
         "type": "image",
-        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "url": "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
         "size": "full",
         "aspectRatio": "1.51:1",
         "aspectMode": "fit"
