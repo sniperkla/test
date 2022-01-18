@@ -78,6 +78,10 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
   {
     return client.replyMessage(event.replyToken, food);
   }
+   else if (event.message.text.indexOf("เงิน") !== -1||event.message.text.indexOf("บริจาคเงิน") !== -1)
+  {
+    return client.replyMessage(event.replyToken, money);
+  }
   
 else
   {
