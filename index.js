@@ -54,7 +54,7 @@ return client.replyMessage(event.replyToken, data1);
 if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("บริจาคเสื้อผ้า") !== -1||event.message.text.indexOf("บริจาคสิ่งของ") !== -1)
 {
 
-   return client.replyMessage(event.replyToken,proreg2);
+   return client.replyMessage(event.replyToken,data1);
 }
     
   // Section เงื่อนไขการตอบกลับ
@@ -460,7 +460,7 @@ const data1 = [
                 thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
                 imageBackgroundColor: "#030600",
                 title: "\t\t⛅ กาชาดจังหวัดตรัง  ⛅",
-                text: "โทรศัพท์ 075 501 095 ที่อยู่ ",
+                text: "โทรศัพท์ 075 501 095 \n ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง ",
                 actions: [
                  
                     {
@@ -470,53 +470,7 @@ const data1 = [
           }
                 ]
               },
- /* {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/huay.jpg?x=ac",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🎉 ต้อนรับหวยออก 🎉",
-                text: "🔥 ทุกยอดฝาก \n🔥 รับไปเลย 20%\n🔥 เฉพาะวันนี้เท่านั้น",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รับโปร",
-                   uri: "https://www.slotcat777.com/login?openExternalBrowser=1"
-          }
-                ]
-              },*/
-
-         /*     {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/hotgraph.png?fe=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t📈 เกมส์สุดฮิต Hotgraph 📈",
-                text: "✅ มาใหม่เล่นเพลิน \n✅ เล่นง่าย \n✅ แตกบ่อย จ่ายจริง",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "เข้าเล่น",
-                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
-          }
-                ]
-              },
-
-              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/pg1.jpg?fe=4c",
-                imageBackgroundColor: "#030600",
-                title: "\t\t🎁 ค่ายใหม่ PG SLOT 🎁",
-                text: "✌️ ภาพสวย มาแรง \n✌️ เล่นง่าย,เกมเยอะ\n✌️ แตกบ่อย แตกหนัก",
-               
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "เข้าเล่น",
-                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
-          }
-                ]
-              },*/
+ 
  {
                 thumbnailImageUrl: "https://niki999.com/slotcat777/lucky2.jpg?se=11",
                 imageBackgroundColor: "#030600",
@@ -613,70 +567,6 @@ const data1 = [
           }
 }
 ];
-const proreg2 = [
-
-{
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "direction": "ltr",
-      "header": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Header",
-            "align": "center",
-            "contents": []
-          }
-        ]
-      },
-      "hero": {
-        "type": "image",
-        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
-        "size": "full",
-        "aspectRatio": "1.51:1",
-        "aspectMode": "fit"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Body",
-            "align": "center",
-            "contents": []
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "Button",
-              "uri": "https://linecorp.com"
-            },
-            "color": "#12C908FF",
-            "height": "md",
-            "style": "primary",
-            "gravity": "center"
-          }
-        ]
-      }
-    }
-  ]
-}
-         
-];
-
-
 
 const luckywheel = [{
   "type": "text",
