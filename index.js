@@ -653,9 +653,8 @@ const proreg2 = [
                     {
                     type: "uri",
                     label: "เข้าเล่น",
-                   uri: "https://slotcat777.com/login?openExternalBrowser=1"
+                   uri: "https://slotcat777.com/login?openExternalBrowser=1",color: "#12C908FF"
           },
-          color: "#12C908FF"
                 ]
               },
  {
