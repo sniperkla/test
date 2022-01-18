@@ -95,72 +95,72 @@ else
 
 const test = [
 {
-  "type": "carousel",
-  "altText": "🔥 โปรไฟลุก 20% ทุกยอดฝาก",
-  "contents": {
-    "type": "bubble",
-    "direction": "ltr",
-    "header": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "🔥 โปร 20 % มาแล้วจ้าา 🔥",
-          "size": "lg",
-          "align": "center",
-          "weight": "bold"
-        },
-        {
-          "type": "text",
-          "text": "✨ รับกันแบบจุใจ ตามช่วงเวลา ✨",
-          "margin": "lg",
-          "size": "md",
-"align": "center",
-          "weight": "bold"
-        },
-        {
-          "type": "text",
-          "text": "✅ ช่วงเวลา 18:00-22:00 น.",
-          "margin": "md"
-        },
-        {
-          "type": "text",
-          "text": "✅ รับกันรัวๆ ไปเลย ทุกยอดฝาก",
-          "margin": "sm"
-        },
-        {
-          "type": "text",
-          "text": "✅ ยิ่งฝากมาก มีโอกาสได้มากนะคะ  ",
-          "margin": "sm"
-        }
-      ]
-    },
-    "hero": {
-      "type": "image",
-      "url": "https://niki999.com/slotcat777/20neww.jpeg",
-      "align": "center",
-      "size": "full",
-      "aspectRatio": "1:1"
-    },
-    "footer": {
-      "type": "box",
-      "layout": "horizontal",
-      "contents": [
-        {
-          "type": "button",
-          "action": {
-            "type": "uri",
-            "label": "ดูโปรโมชั่น",
-            "uri": "https://www.slotcat777.com/promotion?openExternalBrowser=1"
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+      "type": "carousel",
+      "columns": [
+          {
+            "thumbnailImageUrl": "https://example.com/bot/images/item1.jpg",
+            "imageBackgroundColor": "#FFFFFF",
+            "title": "this is menu",
+            "text": "description",
+            "defaultAction": {
+                "type": "uri",
+                "label": "View detail",
+                "uri": "http://example.com/page/123"
+            },
+            "actions": [
+                {
+                    "type": "postback",
+                    "label": "Buy",
+                    "data": "action=buy&itemid=111"
+                },
+                {
+                    "type": "postback",
+                    "label": "Add to cart",
+                    "data": "action=add&itemid=111"
+                },
+                {
+                    "type": "uri",
+                    "label": "View detail",
+                    "uri": "http://example.com/page/111"
+                }
+            ]
           },
-          "color": "#47C80B",
-          "style": "primary"
-        }
-      ]
-    }
+          {
+            "thumbnailImageUrl": "https://example.com/bot/images/item2.jpg",
+            "imageBackgroundColor": "#000000",
+            "title": "this is menu",
+            "text": "description",
+            "defaultAction": {
+                "type": "uri",
+                "label": "View detail",
+                "uri": "http://example.com/page/222"
+            },
+            "actions": [
+                {
+                    "type": "postback",
+                    "label": "Buy",
+                    "data": "action=buy&itemid=222"
+                },
+                {
+                    "type": "postback",
+                    "label": "Add to cart",
+                    "data": "action=add&itemid=222"
+                },
+                {
+                    "type": "uri",
+                    "label": "View detail",
+                    "uri": "http://example.com/page/222"
+                }
+            ]
+          }
+      ],
+      "imageAspectRatio": "rectangle",
+      "imageSize": "cover"
   }
-} 
+}
   ]
 
 
