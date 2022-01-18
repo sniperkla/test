@@ -104,9 +104,8 @@ const test = [{
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
-      "align": "center",
-      "size": "full",
-      "aspectRatio": "1:1"
+    
+      "size": "small",
     
     }
   },
@@ -116,9 +115,9 @@ const test = [{
     "hero": {
       "type": "image",
       "url": "https://niki999.com/slotcat777/20neww.jpeg",
-      "align": "center",
-      "size": "full",
-      "aspectRatio": "1:1"
+    
+      "size": "small",
+    
     }
   }
     ]
