@@ -46,7 +46,7 @@ function handleEvent(event) {
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, missun);
+return client.replyMessage(event.replyToken, test);
     }
 
 if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||event.message.text.indexOf("สิ่งของ") !== -1)
@@ -80,6 +80,11 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
   {
     return client.replyMessage(event.replyToken, money);
   }
+  else if (event.message.text.indexOf("เครื่องใช้") !== -1)
+  {
+    return client.replyMessage(event.replyToken, used);
+  }
+  
   
 else
   {
@@ -89,7 +94,79 @@ else
 };
 
 
+const test = [{
+  "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Header",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+    "size": "full",
+    "aspectRatio": "1.51:1",
+    "aspectMode": "fit"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Body",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "Button",
+          "uri": "https://linecorp.com"
+        }
+      }
+    ]
+  }
+}
 
+
+
+]
+
+
+
+const used = [
+{
+                thumbnailImageUrl: "https://www.i-pic.info/i/UQm6111429.jpg",
+                imageBackgroundColor: "#030600",
+                title: "\t\t เรือนจำจังหวัดตรัง",
+                text: " โทรศัพท์ 075582336\nที่อยู่: 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+               
+                actions: [
+                    {
+                    type: "uri",
+                    label: "รายละเอียดเพิ่มเติม",
+                   uri: "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
+          }
+                ]
+              }
+
+]
 
 const cloth = [
 
