@@ -135,10 +135,7 @@ const item = [
                    uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
           }
                 ]
-              }
-            ]
-          }
-      }
+              },
  
  {
                 thumbnailImageUrl: "https://drive.google.com/uc?id=1cK00lkHze5ubr-DGF69ZLmY45hE0Z8HA",
