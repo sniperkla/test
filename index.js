@@ -61,127 +61,16 @@ if (event.message.text.indexOf("บริจาคเลือด") !== -1||even
 
 else if (event.message.text === "ประกาศ")
   {
-    return client.replyMessage(event.replyToken, info);
-  }
-  else if (event.message.text === "Lucky Wheel")
-  {
-    return client.replyMessage(event.replyToken, luckywheel);
-  }
-  else if (event.message.text.indexOf("50") !== -1||event.message.text.indexOf("รับโปร 50") !== -1)        
-  {
-    return client.replyMessage(event.replyToken,pro50);
-  }
-else if (event.message.text.indexOf("โปรโมชั่น") !== -1||event.message.text.indexOf("โปร") !== -1)
-  {
-    return client.replyMessage(event.replyToken, proreg);
-  }
-
-else if (event.message.text.indexOf("ฝา") !== -1||event.message.text.indexOf("ถอนขั้น") !== -1)
-  {
-    return client.replyMessage(event.replyToken, deposit);
-  }
-
-else if (event.message.text.indexOf("ธนาคาร") !== -1||event.message.text.indexOf("ฝาก") !== -1||event.message.text.indexOf("กรุง") !== -1)
-  {
-    return client.replyMessage(event.replyToken, bank);
-  }
-
- else if (event.message.text.indexOf("แอด") !== -1||event.message.text.indexOf("สอบถาม") !== -1)       
-  {
-    return client.replyMessage(event.replyToken, chatwith);
-
-  }
-  else if (event.message.text.indexOf("สมัคร") !== -1||event.message.text.indexOf("สมัก") !== -1)       
-  {
-    return client.replyMessage(event.replyToken, register);
-
-  }
- else if (event.message.text.indexOf("เกมส์แนะนำ") !== -1)
- {         
- return client.replyMessage(event.replyToken,gamereg);
- }
-
- else if (event.message.text.indexOf("เครดิ") !== -1|| event.message.text.indexOf("ไม่ต้องฝาก")!==-1|| event.message.text.indexOf("รับ100")!==-1)         
-  {
-    return client.replyMessage(event.replyToken,freecredit);
-  }
-  else if (event.message.text === "แอดมินเงินไม่เข้า" || event.message.text === "แอดเงินไม่เข้า" ||event.message.text.indexOf("เงินไม่")!==-1||event.message.text.indexOf("เงินไม่ได้")!==-1)
-  {
-    return client.replyMessage(event.replyToken,wait);
-  }
-else if (event.message.text.indexOf("สวั") !== -1|| event.message.text.indexOf("ฮั")!==-1)        
-  {
-    return client.replyMessage(event.replyToken,greeting);
-  }
-  else if (event.message.text.indexOf("เข้าเล่น") !== -1|| event.message.text.indexOf("เว็บ")!==-1|| event.message.text.indexOf("เว็ป")!==-1|| event.message.text.indexOf("ทางเข้า")!==-1)        
-  {
-    return client.replyMessage(event.replyToken,entrance);
-  }
-  else if (event.message.text.indexOf("ลืมรหั") !== -1)        
-  {
-    return client.replyMessage(event.replyToken,forget);
-  }
-   else if (event.message.text.indexOf("ไม่ได้") !== -1)        
-  {
-    return client.replyMessage(event.replyToken,problem);
-  }
-    else if (event.message.text.indexOf("ทรู") !== -1)        
-  {
-    return client.replyMessage(event.replyToken,truewallet);
+    return client.replyMessage(event.replyToken, item);
   }
   
-
 else
   {
-    return client.replyMessage(event.replyToken, problem);
+    return client.replyMessage(event.replyToken, item);
   }
 
   
 };
-
-
-const data = [
-
- {  "type":"text",
-                "text":"เว็บกาชาดจังหวัดตรัง   โทรศัพท์ 075 501 095 ที่อยู่: 8, ถนนรื่นรมย์, ตำบลทับเที่ยง อำเภอเมือง จังหวัดตรัง 92000  https://www.facebook.com/pg/trangrc/posts/ "
-}
-]
-
-const register = [
-
- {  "type":"text",
-                "text":"💋 สมัครสมาชิกผ่านลิงค์นี้ได้เลยจ้า 💋\n\n 👩🏽‍💻 https://slotcat777.com/?openExternalBrowser=1 "
-
-         }
-
-]
-
-
-const forget = [
-
- {  "type":"text",
-                "text":"💋 ลืมรหัสผ่านใช่รึป่าว? 💋\n\n 👩🏽‍💻 ลองทักหาแอดมินดูสิ 👩🏽‍💻 \n\n👇 ที่ลิงค์นี้เลย 👇 \n\n https://lin.ee/4zt83jX"
-
-         }
-
-]
-
-const pro50 = [
-
- {  "type":"text",
-                "text":"🤑 รับโปร 50/50 🤑\n\n 🔥 รายละเอียด 🔥\n\n ✅ ไม่ต้องทำเทิร์น\n ✅ เล่นได้ทุกค่าย\n ✅ ถอนขั้นต่ำ 300  \n\n 👇 สนใจทักแอดมินที่ลิงค์นี้เลย 👇 \n\n https://lin.ee/4zt83jX"
-
-         }
-
-]
-const problem = [
-
- {  "type":"text",
-                "text":" 😢 คุณกำลังมีปัญหาอยู่ใช่รึป่าวค่ะ? ลองติดต่อแอดมินที่ลิ้งด้านล่างสิค่ะ จิ้มเลย👇👇  \n\n 👉🏻 https://lin.ee/4zt83jX"
-
-         }
-
-]
 
 
 
