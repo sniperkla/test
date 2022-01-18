@@ -508,7 +508,7 @@ const data1 = [
                    {
                     type: "uri",
                     label: "รายละเอียดเพิ่มเติม",
-                   uri: "shorturl.at/hxD17?openExternalBrowser=1"
+                   uri: "https://shorturl.at/hxD17?openExternalBrowser=1"
               }
             ]
             },
