@@ -108,17 +108,6 @@ const test = [{
       "size": "small",
     
     }
-  },
-    {
-    "type": "bubble",
-    "direction": "ltr",
-    "hero": {
-      "type": "image",
-      "url": "https://niki999.com/slotcat777/20neww.jpeg",
-    
-      "size": "small",
-    
-    }
   }
     ]
 } 
