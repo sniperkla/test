@@ -446,7 +446,7 @@ const freecredit =
   ]*/
 ];
 
-const proreg = [
+const data1 = [
 
 {
           type: "template",
@@ -457,7 +457,7 @@ const proreg = [
             imageSize: "contain",
             columns: [
              {
-                thumbnailImageUrl: "https://niki999.com/slotcat777/firstday.jpg?fe=4c",
+                thumbnailImageUrl: "https://drive.google.com/uc?id=12KRka9_4GVJEdy280uODi7uMXyz8n1_9",
                 imageBackgroundColor: "#030600",
                 title: "\t\t⛅ ฝากแรกของวันรับไปเลย ⛅",
                 text: "🔥 ฝากแรกของวัน \n🔥 รับเน้นๆ 20 % \n🔥 ฝากขั้นต่ำ 100 สูงสุด 5000",
