@@ -269,33 +269,60 @@ const used = [
               
           ]
 const cloth = [
-
 {
-          type: "template",
-          altText: "รายละเอียด",
-          template: {
-            type: "carousel",
-            imageAspectRatio: "square",
-            imageSize: "contain",
-            columns: [
-             {
-                thumbnailImageUrl: "https://www.i-pic.info/i/86hK111426.png",
-                imageBackgroundColor: "#030600",
-                title: "\t\t กาชาดจังหวัดตรัง ",
-                text: " โทรศัพท์ 075501095 \n ที่อยู่ 8,ถนนรื่นรมย์\n ตำบลทับเที่ยง",
-                actions: [
-                 
-                    {
-                    type: "uri",
-                    label: "รายละเอียดเพิ่มเติม",
-                   uri: "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
-          }
-                ]
-              }
-               
-     
-            ]
-          }
+"type" : "flex",
+    "altText" : "รายละเอียด",
+    "contents" :{
+  "type": "carousel",
+  "contents": [
+    {
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://www.i-pic.info/i/86hK111426.png",
+    "align": "center",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "backgroundColor": "#FFFFFFFF"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กาชาดจังหวัดตรัง\n โทร 075501095 \n ที่อยู่ 8,ถ.รื่นรมย์\n ต.ทับเที่ยง",
+        "weight": "regular",
+        "size": "md",
+        "color": "#000000FF",
+        "align": "center",
+        "wrap": true,
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=11"
+        },
+        "color": "#008CC3FF",
+        "style": "primary",
+        "gravity": "center"
+      }
+    ]
+  }
+}
+
+  ]
+}
 }
 ];
 const tooldoc = [
