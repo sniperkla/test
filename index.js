@@ -305,7 +305,7 @@ const cloth = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          "uri": "https://www.facebook.com/trangrc?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -553,7 +553,7 @@ const blood = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          "uri": "https://www.facebook.com/trangrc?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -760,7 +760,7 @@ const money = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          "uri": "https://www.facebook.com/trangrc?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -953,7 +953,7 @@ const item = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
+          "uri": "https://www.facebook.com/trangrc?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
