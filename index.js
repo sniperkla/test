@@ -618,7 +618,8 @@ const food = [
       }
     ]
   }
- },  
+ }
+},  
  {
   "type": "bubble", //โรงพยาบาล
   "direction": "ltr",
@@ -645,8 +646,7 @@ const food = [
         "contents": []
       }
     ]
-  }
-},
+  },
   "footer": {
     "type": "box",
     "layout": "horizontal",
@@ -664,8 +664,7 @@ const food = [
       }
     ]
   }
- },
- {
+ },{
   "type": "bubble", //สถานพินิจ
   "direction": "ltr",
   "hero": {
@@ -713,6 +712,8 @@ const food = [
 ]
 }
 }
+
+
 ]
 ;
 
