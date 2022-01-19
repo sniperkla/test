@@ -109,92 +109,96 @@ const test = [
     "contents" :{
   "type": "carousel",
   "contents": [
-    {
-      "type": "bubble",
-      "direction": "ltr",
-      "hero": {
-        "type": "image",
-        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
-        "size": "full",
-        "aspectRatio": "1.51:1",
-        "aspectMode": "fit"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "โรงพยาบาลตรัง \n โทรศัพท์ 075201500\n ที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
-            "size": "lg",
-            "color": "#000000FF",
-            "align": "start",
-            "gravity": "top",
-            "contents": []
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "รายละเอียด",
-              "uri": "https://linecorp.com"
-            },
-            "color": "#008CC3FF",
-            "style": "primary",
-            "gravity": "center"
-          }
-        ]
+   {
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://www.i-pic.info/i/UQm6111429.jpg",
+    "align": "center",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "backgroundColor": "#FFFFFFFF"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เรือนจำจังหวัดตรัง\n โทร 075582336 \n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+        "weight": "regular",
+        "size": "md",
+        "color": "#000000FF",
+        "align": "center",
+        "wrap": true,
+        "contents": []
       }
-    },
-    {
-      "type": "bubble",
-      "direction": "ltr",
-      "hero": {
-        "type": "image",
-        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
-        "size": "full",
-        "aspectRatio": "1.51:1",
-        "aspectMode": "fit"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "fffffff",
-            "size": "lg",
-            "color": "#000000FF",
-            "align": "start",
-            "gravity": "top",
-            "contents": []
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "รายละเอียด",
-              "uri": "https://linecorp.com"
-            },
-            "color": "#008CC3FF",
-            "style": "primary",
-            "gravity": "center"
-          }
-        ]
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "https://linecorp.com"
+        },
+        "color": "#008CC3FF",
+        "style": "primary",
+        "gravity": "center"
       }
-    }
+    ]
+  }
+ },
+    {
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://www.i-pic.info/i/UQm6111429.jpg",
+    "align": "center",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "backgroundColor": "#FFFFFFFF"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เรือนจำจังหวัดตรัง\n โทร 075582336 \n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+        "weight": "regular",
+        "size": "md",
+        "color": "#000000FF",
+        "align": "center",
+        "wrap": true,
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "https://linecorp.com"
+        },
+        "color": "#008CC3FF",
+        "style": "primary",
+        "gravity": "center"
+      }
+    ]
+  }
+}
 
   ]
 }
