@@ -712,10 +712,7 @@ const food = [
 ]
 }
 }
-
-
-]
-;
+];
 
 
 const money = [{
