@@ -75,7 +75,7 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
 
  else if (event.message.text.indexOf("บริจาคอุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("เครื่องมือทางการแพทย์") !== -1
   ||event.message.text.indexOf("อุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("ทางการแพทย์") !== -1||event.message.text.indexOf("การแพทย์") !== -1
-  ||event.message.text.indexOf("อุปกรณ์แพทย์") !== -1||event.message.text.indexOf("เตรื่องมือแพทย์") !== -1)
+  ||event.message.text.indexOf("อุปกรณ์แพทย์") !== -1||event.message.text.indexOf("เครื่องมือแพทย์") !== -1)
   {
     return client.replyMessage(event.replyToken, tooldoc);
   }
@@ -305,7 +305,7 @@ const cloth = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=11"
+          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -553,7 +553,7 @@ const blood = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=11"
+          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -760,7 +760,7 @@ const money = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=11"
+          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -953,7 +953,7 @@ const item = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=11"
+          "uri": "https://www.facebook.com/pg/trangrc/posts?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -961,7 +961,8 @@ const item = [
       }
     ]
   }
-}, {
+}, 
+{
   "type": "bubble", //บ้านพักคนชรา
   "direction": "ltr",
   "hero": {
