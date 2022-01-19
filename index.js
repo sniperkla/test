@@ -47,7 +47,11 @@ function handleEvent(event) {
 return client.replyMessage(event.replyToken, missun);
     }
  
-  
+  else if  (event.message.text === "test")
+  {
+  return client.replyMessage(event.replyToken, test);
+  }
+
 else if  (event.message.text.indexOf("สิ่งของ") !== -1||
   event.message.text.indexOf("บริจาคของ") !== -1||event.message.text.indexOf("บริจาคสิ่ง") !== -1||event.message.text.indexOf("ของใช้") !== -1
   ||event.message.text.indexOf("บริจาคใช้") !== -1)
@@ -98,6 +102,50 @@ else
 };
 
 
+const test = [
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "title": "Title",
+        "text": "Text",
+        "actions": [
+          {
+            "type": "message",
+            "label": "Action 1",
+            "text": "Action 1"
+          },
+          {
+            "type": "message",
+            "label": "Action 2",
+            "text": "Action 2"
+          }
+        ]
+      },
+      {
+        "title": "Title",
+        "text": "Text",
+        "actions": [
+          {
+            "type": "message",
+            "label": "Action 1",
+            "text": "Action 1"
+          },
+          {
+            "type": "message",
+            "label": "Action 2",
+            "text": "Action 2"
+          }
+        ]
+      }
+    ]
+  }
+}
+]
+
 
 
 const used = [
@@ -127,7 +175,6 @@ const used = [
             }
           }
           ]
-
 const cloth = [
 
 {
