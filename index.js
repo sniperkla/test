@@ -44,9 +44,12 @@ function handleEvent(event) {
  
    if (event.message.type !== 'text') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
    {
-return client.replyMessage(event.replyToken, test);
+return client.replyMessage(event.replyToken, missun);
     }
-
+ if (event.message.type !== 'บริจาค') //กรณ๊อื่น ที่ส่งมาไม่ได้เป็น text เช่น sticker image audio location
+   {
+return client.replyMessage(event.replyToken, missun1);
+    }
 if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||
   event.message.text.indexOf("สิ่งของ") !== -1||
   event.message.text.indexOf("บริจาคของ") !== -1||event.message.text.indexOf("บริจาคสิ่ง") !== -1||event.message.text.indexOf("ของใช้") !== -1
@@ -465,7 +468,7 @@ const item = [
 const missun = [
 {
 type : "text",
-text : "ฉันไม่เข้าใจในสิ่งที่คุณพูด"
+text : "ฉันไม่เข้าใจในสิ่งที่คุณพูด ลองใช้คำว่า 'บริจาค ,'เงิน','สิ่งของ','เลือด',\n'ทางการแพทย์','อาหาร','ของใช้' เป็นต้น "
 }
 ]
 // listen on port
