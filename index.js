@@ -190,7 +190,7 @@ const test = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://linecorp.com"
+          "uri": "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -212,30 +212,61 @@ const test = [
 
 const used = [
 {
-          type: "template",
-          altText: "รายละเอียด",
-          template: {
-            type: "carousel",
-            imageAspectRatio: "square",
-            imageSize: "contain",
-            columns: [
-             {
-                thumbnailImageUrl: "https://www.i-pic.info/i/UQm6111429.jpg",
-                imageBackgroundColor: "#030600",
-                title: "\t\t เรือนจำจังหวัดตรัง",
-                text: " โทรศัพท์ 075582336\n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
-               
-                actions: [
-                    {
-                    type: "uri",
-                    label: "รายละเอียดเพิ่มเติม",
-                   uri: "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
-          }
-                ]
-              }
-              ]
-            }
-          }
+"type" : "flex",
+    "altText" : "รายละเอียด",
+    "contents" :{
+  "type": "carousel",
+  "contents": [
+    {
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://www.i-pic.info/i/UQm6111429.jpg",
+    "align": "center",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "backgroundColor": "#FFFFFFFF"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เรือนจำจังหวัดตรัง\n โทร 075582336 \n ที่อยู่ 133 ม. 11 ตำบลโคกหล่อ อ.เมืองตรัง",
+        "weight": "regular",
+        "size": "md",
+        "color": "#000000FF",
+        "align": "center",
+        "wrap": true,
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
+        },
+        "color": "#008CC3FF",
+        "style": "primary",
+        "gravity": "center"
+      }
+    ]
+  }
+}
+
+  ]
+}
+}
+              
           ]
 const cloth = [
 
