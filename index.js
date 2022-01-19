@@ -104,25 +104,20 @@ else
 
 const test = [
 {
-
-  "type" : "flex",
+"type" : "flex",
     "altText" : "Meess",
     "contents" :{
   "type": "carousel",
   "contents": [
     {
       "type": "bubble",
+      "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
         "size": "full",
-        "aspectRatio": "20:13",
-        "aspectMode": "cover",
-        "action": {
-          "type": "uri",
-          "label": "Line",
-          "uri": "https://linecorp.com/"
-        }
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
       },
       "body": {
         "type": "box",
@@ -130,156 +125,42 @@ const test = [
         "contents": [
           {
             "type": "text",
-            "text": "Brown Cafe",
-            "weight": "bold",
-            "size": "xl",
+            "text": "fffffff",
+            "size": "lg",
+            "color": "#000000FF",
+            "align": "start",
+            "gravity": "top",
             "contents": []
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "margin": "md",
-            "contents": [
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "4.0",
-                "size": "sm",
-                "color": "#999999",
-                
-                "margin": "md",
-                "contents": []
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "margin": "lg",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Place",
-                    "size": "sm",
-                    "color": "#AAAAAA",
-                    
-                    "contents": []
-                  },
-                  {
-                    "type": "text",
-                    "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
-                    "size": "sm",
-                    "color": "#666666",
-                    
-                    "wrap": true,
-                    "contents": []
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Time",
-                    "size": "sm",
-                    "color": "#AAAAAA",
-                    
-                    "contents": []
-                  },
-                  {
-                    "type": "text",
-                    "text": "10:00 - 23:00",
-                    "size": "sm",
-                    "color": "#666666",
-                    
-                    "wrap": true,
-                    "contents": []
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
       "footer": {
         "type": "box",
-        "layout": "vertical",
-        
-        "spacing": "sm",
+        "layout": "horizontal",
         "contents": [
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "CALL",
+              "label": "รายละเอียด",
               "uri": "https://linecorp.com"
             },
-            "height": "sm",
-            "style": "link"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "WEBSITE",
-              "uri": "https://linecorp.com"
-            },
-            "height": "sm",
-            "style": "link"
-          },
-          {
-            "type": "spacer",
-            "size": "sm"
+            "color": "#008CC3FF",
+            "style": "primary",
+            "gravity": "center"
           }
         ]
       }
     },
     {
       "type": "bubble",
+      "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
         "size": "full",
-        "aspectRatio": "20:13",
-        "aspectMode": "cover",
-        "action": {
-          "type": "uri",
-          "label": "Line",
-          "uri": "https://linecorp.com/"
-        }
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
       },
       "body": {
         "type": "box",
@@ -287,146 +168,40 @@ const test = [
         "contents": [
           {
             "type": "text",
-            "text": "Brown Cafe",
-            "weight": "bold",
-            "size": "xl",
+            "text": "fffffff",
+            "size": "lg",
+            "color": "#000000FF",
+            "align": "start",
+            "gravity": "top",
             "contents": []
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "margin": "md",
-            "contents": [
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "4.0",
-                "size": "sm",
-                "color": "#999999",
-                
-                "margin": "md",
-                "contents": []
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "margin": "lg",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Place",
-                    "size": "sm",
-                    "color": "#AAAAAA",
-                    
-                    "contents": []
-                  },
-                  {
-                    "type": "text",
-                    "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
-                    "size": "sm",
-                    "color": "#666666",
-                    
-                    "wrap": true,
-                    "contents": []
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Time",
-                    "size": "sm",
-                    "color": "#AAAAAA",
-                    
-                    "contents": []
-                  },
-                  {
-                    "type": "text",
-                    "text": "10:00 - 23:00",
-                    "size": "sm",
-                    "color": "#666666",
-                    
-                    "wrap": true,
-                    "contents": []
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
       "footer": {
         "type": "box",
-        "layout": "vertical",
-        
-        "spacing": "sm",
+        "layout": "horizontal",
         "contents": [
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "CALL",
+              "label": "รายละเอียด",
               "uri": "https://linecorp.com"
             },
-            "height": "sm",
-            "style": "link"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "WEBSITE",
-              "uri": "https://linecorp.com"
-            },
-            "height": "sm",
-            "style": "link"
-          },
-          {
-            "type": "spacer",
-            "size": "sm"
+            "color": "#008CC3FF",
+            "style": "primary",
+            "gravity": "center"
           }
         ]
       }
     }
+
   ]
 }
 }
+
+  
+                  
 ]
 
 
