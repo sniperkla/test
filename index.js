@@ -645,7 +645,8 @@ const food = [
         "contents": []
       }
     ]
-  },
+  }
+},
   "footer": {
     "type": "box",
     "layout": "horizontal",
@@ -709,10 +710,11 @@ const food = [
     ]
   }
  }
-  ]
+]
 }
 }
-];
+]
+;
 
 
 const money = [{
