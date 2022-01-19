@@ -47,7 +47,9 @@ function handleEvent(event) {
 return client.replyMessage(event.replyToken, test);
     }
 
-if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||event.message.text.indexOf("สิ่งของ") !== -1)
+if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||
+  event.message.text.indexOf("สิ่งของ") !== -1||
+  event.message.text.indexOf("บริจาคของ") !== -1||event.message.text.indexOf("บริจาคสิ่ง") !== -1||event.message.text.indexOf("ของใช้") !== -1)
 {
 
    return client.replyMessage(event.replyToken, item);
@@ -60,17 +62,20 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
     return client.replyMessage(event.replyToken, cloth);
   }
 
-  else if (event.message.text.indexOf("บริจาคเลือด") !== -1)
+  else if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("ให้เลือด") !== -1)
   {
     return client.replyMessage(event.replyToken, blood);
   }
 
- else if (event.message.text.indexOf("บริจาคอุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("เครื่องมือทางการแพทย์") !== -1||event.message.text.indexOf("อุปกรณ์ทางการแพทย์") !== -1)
+ else if (event.message.text.indexOf("บริจาคอุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("เครื่องมือทางการแพทย์") !== -1
+  ||event.message.text.indexOf("อุปกรณ์ทางการแพทย์") !== -1||event.message.text.indexOf("ทางการแพทย์") !== -1||event.message.text.indexOf("การแพทย์") !== -1
+  ||event.message.text.indexOf("แมส") !== -1||event.message.text.indexOf("ถุงมือ") !== -1)
   {
     return client.replyMessage(event.replyToken, tooldoc);
   }
 
-  else if (event.message.text.indexOf("บริจาคอาหาร") !== -1||event.message.text.indexOf("อาหาร") !== -1)
+  else if (event.message.text.indexOf("บริจาคอาหาร") !== -1||event.message.text.indexOf("อาหาร") !== -1||
+    event.message.text.indexOf("ของกิน") !== -1||event.message.text.indexOf("เครื่องดื่ม") !== -1)
   {
     return client.replyMessage(event.replyToken, food);
   }
