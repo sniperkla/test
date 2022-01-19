@@ -125,7 +125,7 @@ const test = [
         "contents": [
           {
             "type": "text",
-            "text": "fffffff",
+            "text": "โรงพยาบาลตรัง \n โทรศัพท์ 075201500\n ที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
             "size": "lg",
             "color": "#000000FF",
             "align": "start",
