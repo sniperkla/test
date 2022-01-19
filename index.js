@@ -670,7 +670,7 @@ const food = [
   "direction": "ltr",
   "hero": {
     "type": "image",
-    "url": "https://www.i-pic.info/i/7BSx111428.jpgg",
+    "url": "https://www.i-pic.info/i/7BSx111428.jpg",
     "align": "center",
     "size": "full",
     "aspectRatio": "1:1",
