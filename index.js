@@ -49,7 +49,8 @@ return client.replyMessage(event.replyToken, test);
 
 if (event.message.text.indexOf("บริจาคสิ่งของ") !== -1||
   event.message.text.indexOf("สิ่งของ") !== -1||
-  event.message.text.indexOf("บริจาคของ") !== -1||event.message.text.indexOf("บริจาคสิ่ง") !== -1||event.message.text.indexOf("ของใช้") !== -1)
+  event.message.text.indexOf("บริจาคของ") !== -1||event.message.text.indexOf("บริจาคสิ่ง") !== -1||event.message.text.indexOf("ของใช้") !== -1
+  ||event.message.text.indexOf("บริจาคใช้") !== -1)
 {
 
    return client.replyMessage(event.replyToken, item);
