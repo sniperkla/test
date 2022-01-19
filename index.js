@@ -104,45 +104,107 @@ else
 
 const test = [
 {
-  "type": "template",
-  "altText": "this is a carousel template",
-  "template": {
-    "type": "carousel",
-    "columns": [
-      {
-        "title": "Title",
-        "text": "Text",
-        "actions": [
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
           {
-            "type": "message",
-            "label": "Action 1",
-            "text": "Action 1"
-          },
-          {
-            "type": "message",
-            "label": "Action 2",
-            "text": "Action 2"
+            "type": "text",
+            "text": "Header",
+            "align": "center",
+            "contents": []
           }
         ]
       },
-      {
-        "title": "Title",
-        "text": "Text",
-        "actions": [
+      "hero": {
+        "type": "image",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "size": "full",
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
           {
-            "type": "message",
-            "label": "Action 1",
-            "text": "Action 1"
-          },
+            "type": "text",
+            "text": "Body",
+            "align": "center",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
           {
-            "type": "message",
-            "label": "Action 2",
-            "text": "Action 2"
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Button",
+              "uri": "https://linecorp.com"
+            }
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Header",
+            "align": "center",
+            "contents": []
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+        "size": "full",
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Body",
+            "align": "center",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Button",
+              "uri": "https://linecorp.com"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
 ]
 
