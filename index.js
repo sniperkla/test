@@ -63,7 +63,8 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
     return client.replyMessage(event.replyToken, cloth);
   }
 
-  else if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("ให้เลือด") !== -1)
+  else if (event.message.text.indexOf("บริจาคเลือด") !== -1||event.message.text.indexOf("ให้เลือด") !== -1||
+    event.message.text.indexOf("บริจาคโลหิต") !== -1||event.message.text.indexOf("เลือด") !== -1||event.message.text.indexOf("โลหิต")!== -1)
   {
     return client.replyMessage(event.replyToken, blood);
   }
