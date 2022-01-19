@@ -145,7 +145,7 @@ const test = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://linecorp.com"
+          "uri": "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -1043,7 +1043,7 @@ const item = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://linecorp.com"
+          "uri": "https://www.facebook.com/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-100531712073093?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
