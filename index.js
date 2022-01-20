@@ -616,12 +616,12 @@ const money = [
     "contents" :{
   "type": "carousel",
   "contents": [
- {
-  "type": "bubble",
+   {
+  "type": "bubble", //โรงพยาบาล
   "direction": "ltr",
   "hero": {
     "type": "image",
-    "url": "https://www.i-pic.info/i/86hK111426.png",
+    "url": "https://www.i-pic.info/i/XDIT111427.jpg",
     "align": "center",
     "size": "full",
     "aspectRatio": "1:1",
@@ -633,7 +633,7 @@ const money = [
     "contents": [
       {
         "type": "text",
-        "text": "กาชาดจังหวัดตรัง\n โทร 075501095 \n ที่อยู่ 8 ถ.รื่นรมย์ ต.ทับเที่ยง",
+        "text": "โรงพยาบาล\n โทร 075201500\n ที่อยู่ 69 ต.ทับเที่ยง อ.เมืองตรัง",
         "weight": "regular",
         "size": "md",
         "color": "#000000FF",
@@ -652,7 +652,7 @@ const money = [
         "action": {
           "type": "uri",
           "label": "รายละเอียด",
-          "uri": "https://www.facebook.com/trangrc?openExternalBrowser=1"
+          "uri": "https://www.facebook.com/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87-331023247355513?openExternalBrowser=1"
         },
         "color": "#008CC3FF",
         "style": "primary",
@@ -660,7 +660,7 @@ const money = [
       }
     ]
   }
-}, {
+ }, {
   "type": "bubble", //หน่วยกู้ภัย มูลนิธิกุศลสถานตรั
   "direction": "ltr",
   "hero": {
