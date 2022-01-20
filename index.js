@@ -76,7 +76,8 @@ else if (event.message.text.indexOf("บริจาคเสื้อผ้า"
   }
 
   else if (event.message.text.indexOf("บริจาคอาหาร") !== -1||event.message.text.indexOf("อาหาร") !== -1||
-    event.message.text.indexOf("ของกิน") !== -1||event.message.text.indexOf("เครื่องดื่ม") !== -1)
+    event.message.text.indexOf("ของกิน") !== -1||event.message.text.indexOf("เครื่องดื่ม") !== -1||event.message.text.indexOf("น้ำดื่ม") !== -1
+    ||event.message.text.indexOf("ยา") !== -1)
   {
     return client.replyMessage(event.replyToken, food);
   }
